@@ -1,0 +1,217 @@
+/* NEGOCIA.PE @COPYRIGHT 2020 */
+
+
+
+@media screen and (max-width: 1500px) {
+body{
+-moz-transform: scale(0.8, 0.8);
+zoom: 0.9;
+zoom: 90%;
+}
+
+.modal-backdrop{
+width: 112vw !important;    
+height: 112vh !important;    
+}
+
+}
+
+/* 0. COLORES PRINCIPALES (TEXTO) */
+.text-gris{
+color: #4F4F4F !important;
+}
+.text-naranja{
+color: #FF5900 !important;
+}
+.text-amarillo{
+color: #FF9C00 !important;
+}
+.text-verde-claro{
+color: #5CB85C !important;
+}
+.text-verde-oscuro{
+color: #228B22 !important;
+}
+.text-blanco{
+color: #FFFFFF !important;
+}
+.text-negro{
+color: #111111 !important;
+}
+.text-rojo{
+color: #ff0000 !important;
+}
+
+/* 0. COLORES PRINCIPALES (FONDO) */
+.bg-gris{
+background-color: #4F4F4F !important;
+}
+.bg-naranja{
+background-color: #FF5900 !important;
+}
+.bg-amarillo{
+background-color: #FF9C00 !important;
+}
+.bg-verde-claro{
+background-color: #5CB85C !important;
+}
+.bg-verde-oscuro{
+background-color: #228B22 !important;
+}
+.bg-blanco{
+background-color: #FFFFFF !important;
+}
+.bg-negro{
+background-color: #111111 !important;
+}
+.bg-rojo{
+background-color: #ff0000 !important;
+}
+
+/* 0. COLORES PRINCIPALES (BORDE) */
+.border-gris{
+border-color: #4F4F4F !important;
+}
+.border-naranja{
+border-color: #FF5900 !important;
+}
+.border-amarillo{
+border-color: #FF9C00 !important;
+}
+.border-verde-claro{
+border-color: #5CB85C !important;
+}
+.border-verde-oscuro{
+border-color: #228B22 !important;
+}
+.border-blanco{
+border-color: #FFFFFF !important;
+}
+.border-negro{
+border-color: #111111 !important;
+}
+.border-rojo{
+border-color: #ff0000 !important;
+}
+
+/* 1. FIELSET NEGOCIA PRINCIPAL */
+.dom_fieldset_principal{
+border-width: 2px;
+border-style: solid;
+border-radius: 15px;
+width: 90%;
+margin: 0 auto;
+text-align: center;
+margin-bottom: 30px;
+}
+.dom_fieldset_principal_legend{
+font-size: 18px;
+width: 50%;
+border: none;
+}
+.dom_fieldset_principal_content{
+min-height: 290px;
+max-height: 290px;
+overflow-x: hidden;
+overflow-y: auto;
+}
+
+/* 2. FIELSET NEGOCIA NORMAL */
+.dom_fieldset{
+border-width: 1px;
+border-style: solid;
+border-radius: 15px;
+width: 90%;
+margin: 0 auto;
+text-align: center;
+margin-bottom: 30px;
+}
+.dom_fieldset_legend{
+font-size: 18px;
+padding: 5px 10px;
+border-radius: 10px;
+width: 90%;
+border: none;
+}
+.dom_fieldset_content{
+min-height: 150px;
+max-height: 150px;
+overflow-x: hidden;
+overflow-y: auto;
+text-align: left;
+}
+.sombra_btn{
+box-shadow: rgba(143, 141, 143, 0.35) 0px 1px 1px 1px !important;
+}
+.recortar_texto_sucursal span{
+width: 130px !important;
+max-width: 130px !important;
+display:inline-block;
+white-space: nowrap !important;
+overflow: hidden !important;
+text-overflow: ellipsis !important;    
+}
+.select_texto{
+width: 130px !important;
+max-width: 130px !important;
+display:inline-block;
+white-space: nowrap !important;
+overflow: hidden !important;
+text-overflow: ellipsis !important;    
+}
+.recortar_texto_sucursal{
+-webkit-box-align: center!important;
+align-items: center!important;
+display: flex !important;
+max-width: 130px !important;
+}
+@media screen and (max-width: 768px) {
+.oculto{
+display: none !important;
+}
+.recortar_texto_sucursal span{
+width: 120px !important;
+max-width: 120px !important;
+display:inline-block;
+white-space: nowrap !important;
+overflow: hidden !important;
+text-overflow: ellipsis !important;    
+}
+.recortar_texto_sucursal{
+max-width: 120px !important;
+}
+}
+
+/*CSS PERSONALIZAR TABLA*/
+#tech-companies-1, #tech-companies-2, #tech-companies-3, #tech-companies-4, #tech-companies-5, #tech-companies-6, #tech-companies-7, #tech-companies-8, #tech-companies-9, #tech-companies-10{ padding: 0;margin-top: 10px; }
+#tech-companies-1 thead tr th { word-wrap: break-word; font-weight: bold; vertical-align: middle;padding: 7px; }
+#tech-companies-2 thead tr th { word-wrap: break-word; font-weight: bold; vertical-align: middle;padding: 7px; }
+#tech-companies-3 thead tr th { word-wrap: break-word; font-weight: bold; vertical-align: middle;padding: 7px; }
+#tech-companies-4 thead tr th { word-wrap: break-word; font-weight: bold; vertical-align: middle;padding: 7px; }
+#tech-companies-5 thead tr th { word-wrap: break-word; font-weight: bold; vertical-align: middle;padding: 7px; }
+#tech-companies-6 thead tr th { word-wrap: break-word; font-weight: bold; vertical-align: middle;padding: 7px; }
+#tech-companies-7 thead tr th { word-wrap: break-word; font-weight: bold; vertical-align: middle;padding: 7px; }
+#tech-companies-8 thead tr th { word-wrap: break-word; font-weight: bold; vertical-align: middle;padding: 7px; }
+#tech-companies-9 thead tr th { word-wrap: break-word; font-weight: bold; vertical-align: middle;padding: 7px; }
+#tech-companies-10 thead tr th { word-wrap: break-word; font-weight: bold; vertical-align: middle;padding: 7px; }
+.tr_tb_encabezado { background: #FFEDD1 ! important ; color: #3c3939; font-size: 13px; height: 35px; }
+.reportes_th_tabla_principal { font-size: 12px; padding: 5px !important; }
+.rep_thead_tb { font-size: 13px; padding: 2px !important; font-weight: 500 !important;}
+.reportes_tr_tabla_normal:hover{background: whitesmoke;}
+.fa-long-arrow-alt-down{cursor: pointer; color: #0000004d;}
+.fa-long-arrow-alt-up{cursor: pointer; color: #0000004d;}
+
+
+/*ALERT FUNCION*/
+.alert .close{
+    background: transparent !important;
+    border: none !important;
+}
+
+/*SELECCIONAR TODO EL TEXTO*/
+.allselecttexto {
+  -moz-user-select: all;
+  -webkit-user-select: all;
+  -ms-user-select: all;
+  user-select: all;
+}
