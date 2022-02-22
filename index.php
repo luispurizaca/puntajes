@@ -2673,7 +2673,7 @@ button .icon_left{
 </div> 
 <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" style="cursor:pointer;">
 <div class="col-lg-2 col-md-3 col-sm-2 col-xs-4" style="padding:0;">    
-<span class="texto_tienda_online css_seccion" onclick="cambiar_seccion(1);" style="font-size: 12px; font-weight: bold;color: green; border-bottom: 3px solid green;">TIENDA ONLINE</span>
+<span class="texto_tienda_online css_seccion" onclick="cambiar_seccion(1);" style="font-size: 12px; font-weight: bold;color: green; border-bottom: 3px solid green;">TODOS LOS PRODUCTOS</span>
 </div>
 
 <div class="col-lg-3 col-md-4 col-sm-3 col-xs-4 " style="padding:0;">    
