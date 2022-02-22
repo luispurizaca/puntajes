@@ -4,11 +4,7 @@
    
 <title>GARRIDO ALAMO JOHANNA PATRICIA</title>
 
-<script>
-if (location.protocol !== 'https:') {
-location.replace(`https:${location.href.substring(location.protocol.length)}`);
-}
-</script>
+
 
 <meta http-equiv="Expires" content="0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -2684,7 +2680,7 @@ button .icon_left{
 <span class="texto_promociones css_seccion" onclick="cambiar_seccion(2);" style="font-size: 12px; font-weight: bold;">OFERTAS</span>
 </div>
 <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4" style="padding:0;">    
-<span class="texto_catalogo css_seccion" onclick="cambiar_seccion(3); window.open(&#39;../librerias/mpdf/ver_documento_ecommerce.php?tipo_operacion=1&amp;controller=49&#39;, &#39;_blank&#39;); " style="font-size: 12px; font-weight: bold;">CAT√ÅLOGO 2021</span>
+<span class="texto_catalogo css_seccion" onclick="cambiar_seccion(3); window.open(&#39;../librerias/mpdf/ver_documento_ecommerce.php?tipo_operacion=1&amp;controller=49&#39;, &#39;_blank&#39;); " style="font-size: 12px; font-weight: bold;">CAT√?LOGO 2021</span>
 </div>    
 </div> 
 </div>
@@ -4515,7 +4511,7 @@ S/ <span id="add_cart_span_precio_unitario2_350730">24.00</span>
 <!--MODAL DE PRODUCTO
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:15px; margin-bottom: 25px;">
-<span style="font-weight: 700; font-size: 16px;">MANTEQUILLA DE MANI SIN STEVIA 430GR-MIMAN√çA</span>
+<span style="font-weight: 700; font-size: 16px;">MANTEQUILLA DE MANI SIN STEVIA 430GR-MIMAN√?A</span>
 <hr style="width: 50px; padding:0; margin-top: 5px; margin-bottom: 0;">
 </div>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="font-size: 14px; font-weight: 700; margin-bottom: 55px; display: ;">
@@ -5099,7 +5095,7 @@ S/ <span id="add_cart_span_precio_unitario2_350261">0.00</span>
 <!--MODAL DE PRODUCTO
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:15px; margin-bottom: 25px;">
-<span style="font-weight: 700; font-size: 16px;">7 SEMILLAS INSTANT√ÅNEO 200GR-WINAYQAN</span>
+<span style="font-weight: 700; font-size: 16px;">7 SEMILLAS INSTANT√?NEO 200GR-WINAYQAN</span>
 <hr style="width: 50px; padding:0; margin-top: 5px; margin-bottom: 0;">
 </div>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="font-size: 14px; font-weight: 700; margin-bottom: 55px; display: ;">
@@ -6267,7 +6263,7 @@ S/ <span id="add_cart_span_precio_unitario2_345577">4.00</span>
 <!--MODAL DE PRODUCTO
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:15px; margin-bottom: 25px;">
-<span style="font-weight: 700; font-size: 16px;">ROSQUITAS DE AJONJOL√ç</span>
+<span style="font-weight: 700; font-size: 16px;">ROSQUITAS DE AJONJOL√?</span>
 <hr style="width: 50px; padding:0; margin-top: 5px; margin-bottom: 0;">
 </div>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="font-size: 14px; font-weight: 700; margin-bottom: 55px; display: ;">
