@@ -2045,26 +2045,21 @@ position: absolute;
 <div class="page menu_nav_principal" style="width:100%;">
     
 <div class="row panel_headding_height">
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin: 0; color: white; background: #555555; height: 40px;">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin: 0; color: white; background: #686868; height: 40px;">
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="margin-top: 10px;">
 
     
     
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
 <!--PARTE IZQUIERDA-->
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
  
-
-    
-<div class="col-lg-2 col-md-2 col-sm-3 col-xs-2" onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;alert=1&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=2&#39;" style="padding:0; cursor: pointer; font-family: Poppins;">
-<span style="height: 40px; background: #fff;padding: 12px; color: black;border-top-left-radius: 9px; border-top-right-radius: 9px;">Inicio</span>
-</div>
-   
-<div class="col-lg-2 col-md-2 col-sm-3 col-xs-5" onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;alert=1&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=8&#39;" style="padding:0;cursor: pointer; font-family: Poppins;">
-Tienda</div>
  
-
-<div class="col-lg-6 col-md-6 col-sm-3 col-xs-3" onclick="window.open(&#39;../librerias/mpdf/ver_documento_ecommerce.php?tipo_operacion=1&amp;controller=49&#39;, &#39;_blank&#39;);" style="padding:0;cursor: pointer; font-family: Poppins;padding-left: 10px;">
+    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-5" onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;alert=1&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=8&#39;" style="padding:0; cursor: pointer; font-family: Poppins; font-size:15px; left:30px;">
+Inicio</div>
+<div class="col-lg-2 col-md-2 col-sm-3 col-xs-5" onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;alert=1&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=8&#39;" style="padding:0; cursor: pointer; font-family: Poppins; font-size:15px; left:30px;">
+Tienda</div>
+ <div class="col-lg-6 col-md-6 col-sm-3 col-xs-3" onclick="window.open(&#39;../librerias/mpdf/ver_documento_ecommerce.php?tipo_operacion=1&amp;controller=49&#39;, &#39;_blank&#39;);" style="padding:0;cursor: pointer; font-family: Poppins;padding-left: 10px; font-size:15px; left:30px;">
 Nosotros
 </div>
  
@@ -2086,16 +2081,16 @@ Nosotros
 
 </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding: 30px; padding-bottom: 5px; padding-top: 20px; height: 85px;">
-<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" style="height: 60px;">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding: 30px; padding-bottom: 5px; padding-top: 20px; height: 85px; ">
+<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" style="height: 60px; left:35px;">
 
     <!-- Logo -->
 <a href="https://negocialab.com/e-commerce/shop.php?token=tkn-mama-sara-82938293481&amp;alert=1&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2" class="logo img-tabla" style="width: 220px; height: 100%; background-image: url(&#39;https://nelabsac-img-empresa.s3.amazonaws.com/1603930613_49_logonegroC.png&#39;); "></a>
 </div>
-<div class="col-lg-5 col-md-4 col-sm-12 col-xs-12">
+<div class="col-lg-5 col-md-4 col-sm-12 col-xs-12" style="left:50px;">
     
 <span style="position: absolute !important;margin-left: 17px !important;margin-top: 13px !important;color: black !important; font-size:20px !important; display: block !important;"><i class="fa fa-search"></i></span>
-<input class="form-control input-sm ui-autocomplete-input" placeholder="¿Qué buscas hoy?" autocomplete="off" type="text" id="fnlab_producto" style="width: 100%;height: 40px;margin-top: 5px;box-sizing: border-box;border: 2px !important;border-radius: 15px;font-size: 14px;background-color: #F3F3F3;background-position: 10px 10px; background-repeat: no-repeat; padding: 12px 20px 12px 40px;">
+<input class="form-control input-sm ui-autocomplete-input" placeholder="Encuentra tus productos a canjear" autocomplete="off" type="text" id="fnlab_producto" style="width: 100%;height:40px; margin-top: 5px;box-sizing: border-box;border: 2px !important;border-radius: 15px;font-size: 15px;background-color: #F3F3F3;background-position: 10px 10px; background-repeat: no-repeat; padding: 12px 20px 12px 40px;">
 <input type="hidden" autocomplete="off" id="fnlab_id_producto" name="fnlab_id_producto" readonly="readonly">
 
 <script>
@@ -2130,48 +2125,8 @@ $('#fnlab_id_producto').val("");
 </div>  
 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-right" style="font-family: Poppins; font-weight: 700;padding:10px;">
-<div class="col-lg-6 col-md-6 text-right" style="margin:0; padding: 0;">
-<img src="./index_files/images_icons_icon-header_login.png" class="header-icon1 js-show-header-dropdown" style="height: 23px; width: 23px;" alt="ICON">
-
-<!--FORMULARIO--->
-<div class="header-cart header-dropdown menu" style="box-shadow:0px 5px 7px black; left: -200px !important">
-
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 17px;">
-<span style="font-weight: 700; font-family: arial;"><h4>Ingresa a tu cuenta</h4></span>
-</div>
-<span id="span_resultado"></span>
-<form method="POST" accept-charset="utf-8" action="https://negocialab.com/e-commerce/backend/ecommerce_login.php" name="loginform" autocomplete="off" role="form">
-<input type="hidden" id="is_ecommerce" name="is_ecommerce" value="49">
-<input type="hidden" id="is_universal" name="session_id_universal_ant" value="81972207145865f9baaeba683fb4e3c2">
-<input type="hidden" id="is_universal2" name="token_sucursal_empresa" value="tkn-mama-sara-82938293481">
-<input type="hidden" id="cookis_active" name="cookis_active" value="1">
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 10px;">
-<label class="label-control" style="font-size: 11px; font-weight: 700;font-family: arial;"><b>Correo Electrónico</b></label>
-<input class="form-control input-sm" type="text" id="usuario" placeholder="Usuario:" required="required" autocomplete="off" name="user_name" value="" style="border: 1px solid #999 !important; border-radius: 5px; font-size: 12px;">
-</div>
-<br>
-
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 18px;">
-<label class="label-control" style="font-size: 11px; font-weight: 700; font-family: arial;"><b>Contraseña</b></label><a href="https://negocialab.com/e-commerce/shop.php?token=tkn-mama-sara-82938293481&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;alert=1#" class="label-control" style="color:#8DC826 ;font-size: 11px;text-align: right; font-family: arial; float: right;">¿Olvidaste tu contraseña?</a>
-<input class="form-control input-sm" type="password" id="password" placeholder="Contraseña:" required="required" autocomplete="off" name="user_password" value="" style="border: 1px solid #999 !important; border-radius: 5px; font-size: 12px;">
-</div>
-<div class="text-center" style="margin-bottom: 10px;">
-<button type="submit" id="login_submit" name="login" class="btn" style="background: #8DC826; color: white; width: 45%; text-align: center; font-size: 12px;padding-top:2px; display: block; border-radius: 10px; cursor: pointer;  margin: 0 auto; height: 28px;">Ingresar</button>
-</div>
-</form>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-<a href="https://negocialab.com/e-commerce/shop.php?token=tkn-mama-sara-82938293481&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;alert=1#" onclick="$(&#39;#modal_registro_login&#39;).modal(&#39;show&#39;);" class="label-control" style="color:#8DC826 ;font-size: 11px;text-align: right; font-family: arial;">Crea tu cuenta</a>
-</div>
-</div>
-
-</div>
-<div class="col-lg-6 col-md-6 text-left" style="font-size: 17px;font-family: Poppins; font-weight: 700;">
-Cuenta&nbsp;&nbsp;|
-</div>
-
-</div>
-<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="font-family: Poppins; font-weight: 700;padding:10px;">
+    
+    <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12" style="font-family: Poppins;font-weight: 700;padding:10px;display: flex;justify-content: center;">
 <div class="header-wrapicon2" style="float:left;">
 <img src="./index_files/images_icons_shopping-cart.png" class="header-icon1 js-show-header-dropdown" style="height: 23px; width: 23px;" alt="ICON" onclick="actualizar_item_cartera()">
 <span class="header-icons-noti e-negocia-bg-primario contador_items" style="color: white;margin-top:-5px;">0</span>
@@ -2216,10 +2171,77 @@ Revisar
 
 </div>
 </div>
-
+    
+    <div class="col-lg-5">
+        <div class="col-lg-12 col-md-6 text-left" style="font-size: 15px;font-family: Poppins;font-weight: 700;padding:0px;padding-top: 10px;">
+Tienes (239)puntos|
 </div>
+        
+    </div>
+<div class="col-lg-1 col-md-6 col-sm-12 col-xs-12 text-right" style="font-family: Poppins; font-weight: 700;padding:10px;">
+
+<div class="col-lg-3 col-md-6 text-right" style="margin:0; padding: 0;">
+<img src="./index_files/images_icons_icon-header_login.png" style="height: 23px; width: 23px;" alt="ICON">
+
 </div>      
 </div>
+
+ <div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle"  role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false" style="font-size: 15px;font-family: Poppins;font-weight: 700;padding:0px;padding-top: 10px;">
+   Andrea Salinas
+  </a>
+    
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="font-size: 15px;font-family: Poppins;font-weight: 700;padding:0px;padding-top: 10px;" >
+  <li><a class="dropdown-item" href="#" style="font-size: 15px;font-family: Poppins;font-weight: 700;padding:15px;padding-top: 10px;">Mi cuenta</a></li>
+    <li><a class="dropdown-item" href="#" style="font-size: 15px;font-family: Poppins;font-weight: 700;padding:15px;padding-top: 10px;">Mis canjes</a></li>
+    <li><a class="dropdown-item" href="#" style="font-size: 15px;font-family: Poppins;font-weight: 700;padding:15px;padding-top: 10px;">Cerrar sesi&oacute;n</a></li>
+  </div>
+</div>
+
+  
+
+
+<!--FORMULARIO-
+<div class="header-cart header-dropdown menu" style="box-shadow:0px 5px 7px black; left: -200px !important">
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 17px;">
+<span style="font-weight: 700; font-family: arial;"><h4>Ingresa a tu cuenta</h4></span>
+</div>
+<span id="span_resultado"></span>
+<form method="POST" accept-charset="utf-8" action="https://negocialab.com/e-commerce/backend/ecommerce_login.php" name="loginform" autocomplete="off" role="form">
+<input type="hidden" id="is_ecommerce" name="is_ecommerce" value="49">
+<input type="hidden" id="is_universal" name="session_id_universal_ant" value="81972207145865f9baaeba683fb4e3c2">
+<input type="hidden" id="is_universal2" name="token_sucursal_empresa" value="tkn-mama-sara-82938293481">
+<input type="hidden" id="cookis_active" name="cookis_active" value="1">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 10px;">
+<label class="label-control" style="font-size: 11px; font-weight: 700;font-family: arial;"><b>Correo Electrónico</b></label>
+<input class="form-control input-sm" type="text" id="usuario" placeholder="Usuario:" required="required" autocomplete="off" name="user_name" value="" style="border: 1px solid #999 !important; border-radius: 5px; font-size: 12px;">
+</div>
+<br>
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 18px;">
+<label class="label-control" style="font-size: 11px; font-weight: 700; font-family: arial;"><b>Contraseña</b></label><a href="https://negocialab.com/e-commerce/shop.php?token=tkn-mama-sara-82938293481&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;alert=1#" class="label-control" style="color:#8DC826 ;font-size: 11px;text-align: right; font-family: arial; float: right;">¿Olvidaste tu contraseña?</a>
+<input class="form-control input-sm" type="password" id="password" placeholder="Contraseña:" required="required" autocomplete="off" name="user_password" value="" style="border: 1px solid #999 !important; border-radius: 5px; font-size: 12px;">
+</div>
+<div class="text-center" style="margin-bottom: 10px;">
+<button type="submit" id="login_submit" name="login" class="btn" style="background: #8DC826; color: white; width: 45%; text-align: center; font-size: 12px;padding-top:2px; display: block; border-radius: 10px; cursor: pointer;  margin: 0 auto; height: 28px;">Ingresar</button>
+</div>
+</form>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+<a href="https://negocialab.com/e-commerce/shop.php?token=tkn-mama-sara-82938293481&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;alert=1#" onclick="$(&#39;#modal_registro_login&#39;).modal(&#39;show&#39;);" class="label-control" style="color:#8DC826 ;font-size: 11px;text-align: right; font-family: arial;">Crea tu cuenta</a>
+</div>
+</div>
+
+</div>
+    
+    
+
+</div>-->
+
+ 
+        
+        
+
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="font-family: Poppins; font-weight: 700; cursor: pointer;padding-bottom: 1px;">
 <style>  
 .header1{
@@ -2516,6 +2538,7 @@ actualizar_item_cartera();
 
 </script>
 <!--MODAL REGISTRO-->
+
 <div class="modal fade in" id="modal_registro_login" tabindex="-1" role="dialog" style="background: rgb(0, 0, 0, 0.6); z-index: 2147483647; margin: 0px;">
 <div class="modal-dialog modal-md" role="document" style="margin-top: 2%;">
 <div class="modal-header" style="background: #fff; border: 1px solid #999;">
@@ -2626,6 +2649,8 @@ eval(devolver_ajax(2, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama
 </div>
 </div>
 </div>
+
+
 <!--MODAL REGISTRO-->
 <!--MINI HEADER-->
 <style>
@@ -2665,32 +2690,34 @@ button .icon_left{
 <div class="row" style="padding-top: 15px; padding-bottom: 15px;">
 <div class="col-lg-1 col-md-1 hidden-sm hidden-xs">
 </div> 
-<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" style="cursor:pointer;">
+<div class="col-12" style="cursor:pointer; left:0px">
 <div class="col-lg-2 col-md-3 col-sm-2 col-xs-4" style="padding:0;">    
-<span class="texto_tienda_online css_seccion" onclick="cambiar_seccion(1);" style="font-size: 12px; font-family: Poppins; color: green; border-bottom: 3px solid green;">TODOS LOS PRODUCTOS</span>
+<span class="texto_tienda_online css_seccion" onclick="cambiar_seccion(1);" style="font-size: 15px; font-family: Poppins; color: green; border-bottom: 3px solid green;">TODOS LOS PRODUCTOS</span>
 </div>
    
 
-<div class="col-lg-3 col-md-4 col-sm-3 col-xs-4 " style="padding:0; left:40px">    
-<span class="texto_promociones css_seccion" onclick="cambiar_seccion(2);" style="font-size: 12px;  font-family: Poppins">CANJE EN TIENDA</span>
+<div class="col-lg-3 col-md-4 col-sm-3 col-xs-4 " style="padding:0; ">    
+<span class="texto_promociones css_seccion" onclick="cambiar_seccion(2);" style="font-size: 15px;  font-family: Poppins">CANJE EN TIENDA</span>
 </div>
    
 </div> 
 </div>
 </div>
 
-<div class="container" > 
-    <div class="col-12 " style=" background:#08974F; padding:10rem 10rem; Width:1935px; ">
-        <p style="color:#fff; font-size:23px ; font-family: Poppins; letter-spacing: 0.0em; ">
+<div>
+
+<div class="container-xxl" > 
+    <div class="col-12 " style=" background:#08974F; padding:10rem 13rem; ">
+        <p style="color:#fff; font-size:47px ; font-family: Poppins; left:30px;  ">
             Canjea tus productos favoritos
                     </p>
-         <p style="color:#fff; font-size:10px ; letter-spacing: 0.10em; font-family: Poppins;">
+         <p style="color:#fff; font-size:20px ;  font-family: Poppins;">
              Convierte tus puntos en lo que m&aacute;s quieras comprar 
                     </p>
     </div>
 
 </div>
-
+</div>
 
 <script>
 function cambiar_seccion(id_seccion){
@@ -3356,12 +3383,14 @@ items: 7
 <span style="position: absolute !important;margin-left: 17px !important;margin-top: 8px !important;color: #ccc !important; font-size: 15px !important; display: block !important;"><i class="fa fa-search"></i></span>
 <input class="form-control" placeholder="Buscar por producto" autocomplete="off" type="text" id="txt_buscar_producto" style="background: white; width: 100%;height: 30px;margin-top: 5px;box-sizing: border-box;border: none;font-size: 14px;background-position: 10px 10px; background-repeat: no-repeat; padding: 12px 20px 12px 40px;">
 </div>  
+    <div> 
 <div class="col-lg-6 col-md-6" style="padding:0; font-family: Poppins;">
 Filtrar por:
 </div> 
 <div class="col-lg-6 col-md-6 text-right" style="padding:0; font-weight: bold; color: #525252;">
 <u style="cursor:pointer; font-family: Poppins;" onclick="limpiar_filtro();">Limpiar todo</u>
 </div> 
+    </div>
 <!--FILTRO-->
 <script>
 
@@ -4207,13 +4236,15 @@ cambiar_pagina(1);
    
     
 <div class="col-lg-12 col-md-12 col-xs-7 col-sm-12 text-right" id="subir" style="margin-bottom: 30px; padding: 0; padding-right: 10px;">
+
 <select style="background: white; height: 32px; border:none; padding: 5px; width: auto; margin-right: 20px;color: #979797; font-weight: bold;display:none;">
 <option value="1">Productos</option>
 <option value="2">Categorias</option>
 </select>    
  
-   
-<span style="font-family: Poppins; font-weight: 700;">Ver por:&nbsp;</span>
+    <div>
+        
+<span style="font-family: Poppins; font-weight: 700; ">Ver por:&nbsp;</span>
 <select class="" id="select_ordenar_precio_t" style="background: white; height: 32px; border:none; padding: 5px; width: auto; color: #979797; font-weight: bold;">
 <option value="0">Seleccionar</option>
 <option value="2">Mayor a menor precio</option>
@@ -4223,10 +4254,9 @@ cambiar_pagina(1);
 <option value="5" selected="selected">Categorías</option>
 <option value="6">Todos los productos</option>
 </select>
-
 
 <span style="font-family: Poppins; font-weight: 700; left:50px;">Ordenar por:&nbsp;</span>
-<select class="" id="select_ordenar_precio_t" style="background: white; height: 32px; border:none; padding: 5px; width: auto; color: #979797; font-weight: bold;">
+<select class="" id="select_ordenar_precio_t" style="background: white; height: 32px; border:none; padding: 5px; width: auto; color: #979797; font-weight: bold; left:20px;">
 <option value="0">Seleccionar</option>
 <option value="2">Mayor a menor precio</option>
 <option value="1">Menor a mayor precio</option>
@@ -4235,7 +4265,8 @@ cambiar_pagina(1);
 <option value="5" selected="selected">Categorías</option>
 <option value="6">Todos los productos</option>
 </select>
-</div>
+
+    </div>
 
 <div class="rs2-select2 bo4 of-hidden w-size12 m-t-5 m-b-5 m-r-10" style="display: none;">
 <select class="selection-2 select2-hidden-accessible" id="select_ordenar_fecha" tabindex="-1" aria-hidden="true">
