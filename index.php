@@ -2047,25 +2047,25 @@ position: absolute;
 <div class="row panel_headding_height">
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin: 0; color: white; background: #555555; height: 40px;">
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="margin-top: 10px;">
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+    
+    
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 <!--PARTE IZQUIERDA-->
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
  
 
     
 <div class="col-lg-2 col-md-2 col-sm-3 col-xs-2" onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;alert=1&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=2&#39;" style="padding:0; cursor: pointer; font-family: Poppins;">
-<span style="height: 40px; background: #fff;padding: 12px; color: black;border-top-left-radius: 9px; border-top-right-radius: 9px;">Tienda</span>
+<span style="height: 40px; background: #fff;padding: 12px; color: black;border-top-left-radius: 9px; border-top-right-radius: 9px;">Inicio</span>
 </div>
- 
-
-    
+   
 <div class="col-lg-2 col-md-2 col-sm-3 col-xs-5" onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;alert=1&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=8&#39;" style="padding:0;cursor: pointer; font-family: Poppins;">
-Nosotros</div>
+Tienda</div>
  
 
-    
 <div class="col-lg-6 col-md-6 col-sm-3 col-xs-3" onclick="window.open(&#39;../librerias/mpdf/ver_documento_ecommerce.php?tipo_operacion=1&amp;controller=49&#39;, &#39;_blank&#39;);" style="padding:0;cursor: pointer; font-family: Poppins;padding-left: 10px;">
-Catálogo
+Nosotros
 </div>
  
 
@@ -2073,7 +2073,10 @@ Catálogo
 
 </div>    
 </div>
-<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="margin-top: 10px;">
+
+    
+    
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="margin-top: 10px;">
 <!--PARTE DERECHA-->
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-right">
@@ -2085,7 +2088,8 @@ Catálogo
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding: 30px; padding-bottom: 5px; padding-top: 20px; height: 85px;">
 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" style="height: 60px;">
-<!-- Logo -->
+
+    <!-- Logo -->
 <a href="https://negocialab.com/e-commerce/shop.php?token=tkn-mama-sara-82938293481&amp;alert=1&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2" class="logo img-tabla" style="width: 220px; height: 100%; background-image: url(&#39;https://nelabsac-img-empresa.s3.amazonaws.com/1603930613_49_logonegroC.png&#39;); "></a>
 </div>
 <div class="col-lg-5 col-md-4 col-sm-12 col-xs-12">
@@ -2212,17 +2216,7 @@ Revisar
 
 </div>
 </div>
-<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 redes_view" style="font-family: Poppins; font-weight: 700;padding:10px;padding-left: 0;padding-right: 0;">
-<img src="./index_files/facebook-circular-logo.png" onclick="window.open(&#39;https://www.facebook.com/mamasaraoficial/&#39;, &#39;_blank&#39;)" style="height: 20px; width: 20px;">  
 
-
-<!--<a href="#"  style="display: inline-block; height: 40px; width: 40px;background: #434445; color: #ffffff; text-align: center; line-height: 40px; border-radius: 50%; margin-right: 7px; position: relative;z-index: 1;"><i class="fa fa-pinterest"aria-hidden="true"></i></a>-->
-<img src="./index_files/instagram_menu_ec.png" onclick="window.open(&#39;https://instagram.com/mamasaraoficial?igshid=qr9mg22v3gnt&#39;, &#39;_blank&#39;)" style="height: 20px; width: 20px;margin-left: 2px; margin-right: 2px;">  
-
-
-<!--<a href="#"  style="display: inline-block; height: 40px; width: 40px;background: #434445; color: #ffffff; text-align: center; line-height: 40px; border-radius: 50%; margin-right: 7px; position: relative;z-index: 1;"><i class="fa fa-pinterest"aria-hidden="true"></i></a>-->
- 
-</div>
 </div>
 </div>      
 </div>
@@ -2673,18 +2667,31 @@ button .icon_left{
 </div> 
 <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" style="cursor:pointer;">
 <div class="col-lg-2 col-md-3 col-sm-2 col-xs-4" style="padding:0;">    
-<span class="texto_tienda_online css_seccion" onclick="cambiar_seccion(1);" style="font-size: 12px; font-weight: bold;color: green; border-bottom: 3px solid green;">TODOS LOS PRODUCTOS</span>
+<span class="texto_tienda_online css_seccion" onclick="cambiar_seccion(1);" style="font-size: 12px; font-family: Poppins; color: green; border-bottom: 3px solid green;">TODOS LOS PRODUCTOS</span>
 </div>
+   
 
-<div class="col-lg-3 col-md-4 col-sm-3 col-xs-4 " style="padding:0;">    
-<span class="texto_promociones css_seccion" onclick="cambiar_seccion(2);" style="font-size: 12px; font-weight: bold;">OFERTAS</span>
+<div class="col-lg-3 col-md-4 col-sm-3 col-xs-4 " style="padding:0; left:40px">    
+<span class="texto_promociones css_seccion" onclick="cambiar_seccion(2);" style="font-size: 12px;  font-family: Poppins">CANJE EN TIENDA</span>
 </div>
-<div class="col-lg-2 col-md-4 col-sm-4 col-xs-4" style="padding:0;">    
-<span class="texto_catalogo css_seccion" onclick="cambiar_seccion(3); window.open(&#39;../librerias/mpdf/ver_documento_ecommerce.php?tipo_operacion=1&amp;controller=49&#39;, &#39;_blank&#39;); " style="font-size: 12px; font-weight: bold;">CAT�?LOGO 2021</span>
-</div>    
+   
 </div> 
 </div>
 </div>
+
+<div class="container" > 
+    <div class="col-12 " style=" background:#08974F; padding:10rem 10rem; Width:1935px; ">
+        <p style="color:#fff; font-size:23px ; font-family: Poppins; letter-spacing: 0.0em; ">
+            Canjea tus productos favoritos
+                    </p>
+         <p style="color:#fff; font-size:10px ; letter-spacing: 0.10em; font-family: Poppins;">
+             Convierte tus puntos en lo que m&aacute;s quieras comprar 
+                    </p>
+    </div>
+
+</div>
+
+
 <script>
 function cambiar_seccion(id_seccion){
 $('.css_seccion').css('color','black');   
@@ -3349,11 +3356,11 @@ items: 7
 <span style="position: absolute !important;margin-left: 17px !important;margin-top: 8px !important;color: #ccc !important; font-size: 15px !important; display: block !important;"><i class="fa fa-search"></i></span>
 <input class="form-control" placeholder="Buscar por producto" autocomplete="off" type="text" id="txt_buscar_producto" style="background: white; width: 100%;height: 30px;margin-top: 5px;box-sizing: border-box;border: none;font-size: 14px;background-position: 10px 10px; background-repeat: no-repeat; padding: 12px 20px 12px 40px;">
 </div>  
-<div class="col-lg-6 col-md-6" style="padding:0; font-weight: bold;">
+<div class="col-lg-6 col-md-6" style="padding:0; font-family: Poppins;">
 Filtrar por:
 </div> 
 <div class="col-lg-6 col-md-6 text-right" style="padding:0; font-weight: bold; color: #525252;">
-<u style="cursor:pointer;" onclick="limpiar_filtro();">Limpiar todo</u>
+<u style="cursor:pointer; font-family: Poppins;" onclick="limpiar_filtro();">Limpiar todo</u>
 </div> 
 <!--FILTRO-->
 <script>
@@ -3368,7 +3375,8 @@ cambiar_pagina(1);
 }
 </script>    
 <div class="col-xs-12 col-md-12 contenedor_cate" style="padding:0;">
-<div class="col-xs-12 col-md-12 col-lg-12" style="padding:0; border: 1px solid #F0F0F0;">
+
+    <div class="col-xs-12 col-md-12 col-lg-12" style="padding:0; border: 1px solid #F0F0F0;">
 <div class="col-xs-12 col-md-12 col-lg-12 text-left" style="padding: 22px;">
 </div>
 
@@ -3380,7 +3388,7 @@ Categorías
   
 <div class="col-xs-12 col-md-12 col-lg-12" style=" padding:0; margin-top:3px; margin-bottom: 3px;">
 <label class="container-checkbox" style="font-size: 15px;">
-<input type="checkbox" value="1444" id="categoria_marca_1444">&nbsp;Aceites De Cocina 
+    <input type="checkbox" value="1444" id="categoria_marca_1444">&nbsp;L&aacute;minas Original
 <span class="checkmark-box" style="background: white; border: 1px #ccc solid; border-radius:5px;width: 18px;height: 17px;"></span>
 </label>
 </div>
@@ -3405,7 +3413,7 @@ cambiar_pagina(1);
   
 <div class="col-xs-12 col-md-12 col-lg-12" style=" padding:0; margin-top:3px; margin-bottom: 3px;">
 <label class="container-checkbox" style="font-size: 15px;">
-<input type="checkbox" value="2255" id="categoria_marca_2255">&nbsp;Aceites Para Rostro Y  Cuerpo 
+<input type="checkbox" value="2255" id="categoria_marca_2255">&nbsp;Oleico
 <span class="checkmark-box" style="background: white; border: 1px #ccc solid; border-radius:5px;width: 18px;height: 17px;"></span>
 </label>
 </div>
@@ -3430,7 +3438,7 @@ cambiar_pagina(1);
   
 <div class="col-xs-12 col-md-12 col-lg-12" style=" padding:0; margin-top:3px; margin-bottom: 3px;">
 <label class="container-checkbox" style="font-size: 15px;">
-<input type="checkbox" value="2883" id="categoria_marca_2883">&nbsp;Aderezo 
+<input type="checkbox" value="2883" id="categoria_marca_2883">&nbsp;Nutritiva
 <span class="checkmark-box" style="background: white; border: 1px #ccc solid; border-radius:5px;width: 18px;height: 17px;"></span>
 </label>
 </div>
@@ -3455,7 +3463,7 @@ cambiar_pagina(1);
   
 <div class="col-xs-12 col-md-12 col-lg-12" style=" padding:0; margin-top:3px; margin-bottom: 3px;">
 <label class="container-checkbox" style="font-size: 15px;">
-<input type="checkbox" value="2923" id="categoria_marca_2923">&nbsp;Ajies Saludables 
+<input type="checkbox" value="2923" id="categoria_marca_2923">L&aacute;minas Original
 <span class="checkmark-box" style="background: white; border: 1px #ccc solid; border-radius:5px;width: 18px;height: 17px;"></span>
 </label>
 </div>
@@ -3480,7 +3488,7 @@ cambiar_pagina(1);
   
 <div class="col-xs-12 col-md-12 col-lg-12" style=" padding:0; margin-top:3px; margin-bottom: 3px;">
 <label class="container-checkbox" style="font-size: 15px;">
-<input type="checkbox" value="1064" id="categoria_marca_1064">&nbsp;Alimentos 
+<input type="checkbox" value="1064" id="categoria_marca_1064">&nbsp;Oleico
 <span class="checkmark-box" style="background: white; border: 1px #ccc solid; border-radius:5px;width: 18px;height: 17px;"></span>
 </label>
 </div>
@@ -3505,7 +3513,7 @@ cambiar_pagina(1);
   
 <div class="col-xs-12 col-md-12 col-lg-12" style=" padding:0; margin-top:3px; margin-bottom: 3px;">
 <label class="container-checkbox" style="font-size: 15px;">
-<input type="checkbox" value="1463" id="categoria_marca_1463">&nbsp;Avenas 
+<input type="checkbox" value="1463" id="categoria_marca_1463">&nbsp;Nutritiva
 <span class="checkmark-box" style="background: white; border: 1px #ccc solid; border-radius:5px;width: 18px;height: 17px;"></span>
 </label>
 </div>
@@ -3530,7 +3538,7 @@ cambiar_pagina(1);
   
 <div class="col-xs-12 col-md-12 col-lg-12" style=" padding:0; margin-top:3px; margin-bottom: 3px;">
 <label class="container-checkbox" style="font-size: 15px;">
-<input type="checkbox" value="296" id="categoria_marca_296">&nbsp;Bebidas 
+<input type="checkbox" value="296" id="categoria_marca_296">&nbsp;Oleico
 <span class="checkmark-box" style="background: white; border: 1px #ccc solid; border-radius:5px;width: 18px;height: 17px;"></span>
 </label>
 </div>
@@ -3555,7 +3563,7 @@ cambiar_pagina(1);
   
 <div class="col-xs-12 col-md-12 col-lg-12" style=" padding:0; margin-top:3px; margin-bottom: 3px;">
 <label class="container-checkbox" style="font-size: 15px;">
-<input type="checkbox" value="281" id="categoria_marca_281">&nbsp;Belleza 
+<input type="checkbox" value="281" id="categoria_marca_281">&nbsp;Nutritiva
 <span class="checkmark-box" style="background: white; border: 1px #ccc solid; border-radius:5px;width: 18px;height: 17px;"></span>
 </label>
 </div>
@@ -3581,7 +3589,7 @@ cambiar_pagina(1);
 
 <div class="col-xs-12 col-md-12 col-lg-12" style="margin-top:3px; margin-bottom: 3px; font-size: 13px;">
 <div class="col-xs-12 col-md-12 col-lg-12" id="" onclick="cargar_categorias(2);" style=" padding:0;">
-<b style="cursor: pointer;"><u>Ver todas las categorias (51)</u></b>
+<b style="cursor: pointer;"><u>Ver todas las categorias (14)</u></b>
 </div>
 <div class="col-xs-12 col-md-12 col-lg-12" id="" onclick="cargar_categorias(1); " style="padding:0; display: none;">    
 <b style="cursor: pointer; "><u>Ver menos categorias</u></b>
@@ -3592,8 +3600,244 @@ cambiar_pagina(1);
 </div>
 </div>      
     
-<div class="col-xs-12 col-md-12 col-lg-12 text-left" style=" padding: 0px; font-weight: 800;border-bottom: 1px solid #ccc;">
+       
+        <div class="col-xs-12 col-md-12 contenedor_cate" style="padding:0;">
+
+    <div class="col-xs-12 col-md-12 col-lg-12" style="padding:0; border: 1px solid #F0F0F0;">
+<div class="col-xs-12 col-md-12 col-lg-12 text-left" style="padding: 22px;">
+</div>
+
+<div class="col-xs-12 col-md-12 col-lg-12 text-left" style="padding: 0px; font-weight: 800;border-bottom: 1px solid #ccc; font-size: 20px;">
 Marcas
+</div>   
+<div class="col-xs-12 col-md-12 col-lg-12 text-left div_categoria" style="padding: 0px; font-weight: 800;border: 1px solid #F0F0F0;">
+<div class="col-xs-12 col-md-12 col-lg-12 text-left div_cargar_categorias" style="padding:0; margin-bottom: 20px;"><div class="col-xs-12 col-md-12 col-lg-12" style="padding:0; max-height: 600px;overflow-y: auto; padding-top: 10px;">
+  
+<div class="col-xs-12 col-md-12 col-lg-12" style=" padding:0; margin-top:3px; margin-bottom: 3px;">
+<label class="container-checkbox" style="font-size: 15px;">
+    <input type="checkbox" value="1444" id="categoria_marca_1444">&nbsp;L&aacute;minas Original
+<span class="checkmark-box" style="background: white; border: 1px #ccc solid; border-radius:5px;width: 18px;height: 17px;"></span>
+</label>
+</div>
+<script>
+$('#categoria_marca_1444').on('click', function(){
+if($('#categoria_marca_1444').is(':checked')){
+if(filtro_array_categorias_t.indexOf($('#categoria_marca_1444').val() < 0)){
+filtro_array_categorias_t.push($('#categoria_marca_1444').val());
+}
+} else{
+
+if(filtro_array_categorias_t.indexOf($('#categoria_marca_1444').val() >= 0)){
+var posi_categoria_t=filtro_array_categorias_t.indexOf($('#categoria_marca_1444').val());
+filtro_array_categorias_t.splice(posi_categoria_t, 1);
+}
+
+}
+$('#checkc_categoria').val(''); 
+cambiar_pagina(1);
+});
+</script>
+  
+<div class="col-xs-12 col-md-12 col-lg-12" style=" padding:0; margin-top:3px; margin-bottom: 3px;">
+<label class="container-checkbox" style="font-size: 15px;">
+<input type="checkbox" value="2255" id="categoria_marca_2255">&nbsp;Oleico
+<span class="checkmark-box" style="background: white; border: 1px #ccc solid; border-radius:5px;width: 18px;height: 17px;"></span>
+</label>
+</div>
+<script>
+$('#categoria_marca_2255').on('click', function(){
+if($('#categoria_marca_2255').is(':checked')){
+if(filtro_array_categorias_t.indexOf($('#categoria_marca_2255').val() < 0)){
+filtro_array_categorias_t.push($('#categoria_marca_2255').val());
+}
+} else{
+
+if(filtro_array_categorias_t.indexOf($('#categoria_marca_2255').val() >= 0)){
+var posi_categoria_t=filtro_array_categorias_t.indexOf($('#categoria_marca_2255').val());
+filtro_array_categorias_t.splice(posi_categoria_t, 1);
+}
+
+}
+$('#checkc_categoria').val(''); 
+cambiar_pagina(1);
+});
+</script>
+  
+<div class="col-xs-12 col-md-12 col-lg-12" style=" padding:0; margin-top:3px; margin-bottom: 3px;">
+<label class="container-checkbox" style="font-size: 15px;">
+<input type="checkbox" value="2883" id="categoria_marca_2883">&nbsp;Nutritiva
+<span class="checkmark-box" style="background: white; border: 1px #ccc solid; border-radius:5px;width: 18px;height: 17px;"></span>
+</label>
+</div>
+<script>
+$('#categoria_marca_2883').on('click', function(){
+if($('#categoria_marca_2883').is(':checked')){
+if(filtro_array_categorias_t.indexOf($('#categoria_marca_2883').val() < 0)){
+filtro_array_categorias_t.push($('#categoria_marca_2883').val());
+}
+} else{
+
+if(filtro_array_categorias_t.indexOf($('#categoria_marca_2883').val() >= 0)){
+var posi_categoria_t=filtro_array_categorias_t.indexOf($('#categoria_marca_2883').val());
+filtro_array_categorias_t.splice(posi_categoria_t, 1);
+}
+
+}
+$('#checkc_categoria').val(''); 
+cambiar_pagina(1);
+});
+</script>
+  
+<div class="col-xs-12 col-md-12 col-lg-12" style=" padding:0; margin-top:3px; margin-bottom: 3px;">
+<label class="container-checkbox" style="font-size: 15px;">
+<input type="checkbox" value="2923" id="categoria_marca_2923">L&aacute;minas Original
+<span class="checkmark-box" style="background: white; border: 1px #ccc solid; border-radius:5px;width: 18px;height: 17px;"></span>
+</label>
+</div>
+<script>
+$('#categoria_marca_2923').on('click', function(){
+if($('#categoria_marca_2923').is(':checked')){
+if(filtro_array_categorias_t.indexOf($('#categoria_marca_2923').val() < 0)){
+filtro_array_categorias_t.push($('#categoria_marca_2923').val());
+}
+} else{
+
+if(filtro_array_categorias_t.indexOf($('#categoria_marca_2923').val() >= 0)){
+var posi_categoria_t=filtro_array_categorias_t.indexOf($('#categoria_marca_2923').val());
+filtro_array_categorias_t.splice(posi_categoria_t, 1);
+}
+
+}
+$('#checkc_categoria').val(''); 
+cambiar_pagina(1);
+});
+</script>
+  
+<div class="col-xs-12 col-md-12 col-lg-12" style=" padding:0; margin-top:3px; margin-bottom: 3px;">
+<label class="container-checkbox" style="font-size: 15px;">
+<input type="checkbox" value="1064" id="categoria_marca_1064">&nbsp;Oleico
+<span class="checkmark-box" style="background: white; border: 1px #ccc solid; border-radius:5px;width: 18px;height: 17px;"></span>
+</label>
+</div>
+<script>
+$('#categoria_marca_1064').on('click', function(){
+if($('#categoria_marca_1064').is(':checked')){
+if(filtro_array_categorias_t.indexOf($('#categoria_marca_1064').val() < 0)){
+filtro_array_categorias_t.push($('#categoria_marca_1064').val());
+}
+} else{
+
+if(filtro_array_categorias_t.indexOf($('#categoria_marca_1064').val() >= 0)){
+var posi_categoria_t=filtro_array_categorias_t.indexOf($('#categoria_marca_1064').val());
+filtro_array_categorias_t.splice(posi_categoria_t, 1);
+}
+
+}
+$('#checkc_categoria').val(''); 
+cambiar_pagina(1);
+});
+</script>
+  
+<div class="col-xs-12 col-md-12 col-lg-12" style=" padding:0; margin-top:3px; margin-bottom: 3px;">
+<label class="container-checkbox" style="font-size: 15px;">
+<input type="checkbox" value="1463" id="categoria_marca_1463">&nbsp;Nutritiva
+<span class="checkmark-box" style="background: white; border: 1px #ccc solid; border-radius:5px;width: 18px;height: 17px;"></span>
+</label>
+</div>
+<script>
+$('#categoria_marca_1463').on('click', function(){
+if($('#categoria_marca_1463').is(':checked')){
+if(filtro_array_categorias_t.indexOf($('#categoria_marca_1463').val() < 0)){
+filtro_array_categorias_t.push($('#categoria_marca_1463').val());
+}
+} else{
+
+if(filtro_array_categorias_t.indexOf($('#categoria_marca_1463').val() >= 0)){
+var posi_categoria_t=filtro_array_categorias_t.indexOf($('#categoria_marca_1463').val());
+filtro_array_categorias_t.splice(posi_categoria_t, 1);
+}
+
+}
+$('#checkc_categoria').val(''); 
+cambiar_pagina(1);
+});
+</script>
+  
+<div class="col-xs-12 col-md-12 col-lg-12" style=" padding:0; margin-top:3px; margin-bottom: 3px;">
+<label class="container-checkbox" style="font-size: 15px;">
+<input type="checkbox" value="296" id="categoria_marca_296">&nbsp;Oleico
+<span class="checkmark-box" style="background: white; border: 1px #ccc solid; border-radius:5px;width: 18px;height: 17px;"></span>
+</label>
+</div>
+<script>
+$('#categoria_marca_296').on('click', function(){
+if($('#categoria_marca_296').is(':checked')){
+if(filtro_array_categorias_t.indexOf($('#categoria_marca_296').val() < 0)){
+filtro_array_categorias_t.push($('#categoria_marca_296').val());
+}
+} else{
+
+if(filtro_array_categorias_t.indexOf($('#categoria_marca_296').val() >= 0)){
+var posi_categoria_t=filtro_array_categorias_t.indexOf($('#categoria_marca_296').val());
+filtro_array_categorias_t.splice(posi_categoria_t, 1);
+}
+
+}
+$('#checkc_categoria').val(''); 
+cambiar_pagina(1);
+});
+</script>
+  
+<div class="col-xs-12 col-md-12 col-lg-12" style=" padding:0; margin-top:3px; margin-bottom: 3px;">
+<label class="container-checkbox" style="font-size: 15px;">
+<input type="checkbox" value="281" id="categoria_marca_281">&nbsp;Nutritiva
+<span class="checkmark-box" style="background: white; border: 1px #ccc solid; border-radius:5px;width: 18px;height: 17px;"></span>
+</label>
+</div>
+<script>
+$('#categoria_marca_281').on('click', function(){
+if($('#categoria_marca_281').is(':checked')){
+if(filtro_array_categorias_t.indexOf($('#categoria_marca_281').val() < 0)){
+filtro_array_categorias_t.push($('#categoria_marca_281').val());
+}
+} else{
+
+if(filtro_array_categorias_t.indexOf($('#categoria_marca_281').val() >= 0)){
+var posi_categoria_t=filtro_array_categorias_t.indexOf($('#categoria_marca_281').val());
+filtro_array_categorias_t.splice(posi_categoria_t, 1);
+}
+
+}
+$('#checkc_categoria').val(''); 
+cambiar_pagina(1);
+});
+</script>
+</div>
+
+<div class="col-xs-12 col-md-12 col-lg-12" style="margin-top:3px; margin-bottom: 3px; font-size: 13px;">
+<div class="col-xs-12 col-md-12 col-lg-12" id="" onclick="cargar_categorias(2);" style=" padding:0;">
+<b style="cursor: pointer;"><u>Ver todas las categorias (14)</u></b>
+</div>
+<div class="col-xs-12 col-md-12 col-lg-12" id="" onclick="cargar_categorias(1); " style="padding:0; display: none;">    
+<b style="cursor: pointer; "><u>Ver menos categorias</u></b>
+</div>
+</div>
+
+
+</div>
+</div>      
+    
+
+<div class="col-xs-12 col-md-12 col-lg-12 text-left div_marcas" style=" padding: 0px; font-weight: 800;border: 1px solid #F0F0F0;">
+<div class="col-xs-12 col-md-12 col-lg-12 text-left div_cargar_marcas" style="padding:0;"></div>
+</div>     
+
+    
+
+</div>
+<script>
+
+</script>    
 </div> 
 <div class="col-xs-12 col-md-12 col-lg-12 text-left div_marcas" style=" padding: 0px; font-weight: 800;border: 1px solid #F0F0F0;">
 <div class="col-xs-12 col-md-12 col-lg-12 text-left div_cargar_marcas" style="padding:0;"></div>
@@ -3969,8 +4213,19 @@ cambiar_pagina(1);
 </select>    
  
    
+<span style="font-family: Poppins; font-weight: 700;">Ver por:&nbsp;</span>
+<select class="" id="select_ordenar_precio_t" style="background: white; height: 32px; border:none; padding: 5px; width: auto; color: #979797; font-weight: bold;">
+<option value="0">Seleccionar</option>
+<option value="2">Mayor a menor precio</option>
+<option value="1">Menor a mayor precio</option>
+<option value="3">Alfabeticamente A-Z</option>
+<option value="4">Alfabeticamente Z-A</option>
+<option value="5" selected="selected">Categorías</option>
+<option value="6">Todos los productos</option>
+</select>
 
-<span style="font-family: Poppins; font-weight: 700;">Ordenar por:&nbsp;</span>
+
+<span style="font-family: Poppins; font-weight: 700; left:50px;">Ordenar por:&nbsp;</span>
 <select class="" id="select_ordenar_precio_t" style="background: white; height: 32px; border:none; padding: 5px; width: auto; color: #979797; font-weight: bold;">
 <option value="0">Seleccionar</option>
 <option value="2">Mayor a menor precio</option>
