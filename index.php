@@ -2044,49 +2044,54 @@ position: absolute;
 <div class="wrap_header" style="height:100%; box-shadow: 10px 1px 7px #ccc; font-family: Poppins;">
 <div class="page menu_nav_principal" style="width:100%;">
     
+    <!--menu barra negra-->
 <div class="row panel_headding_height">
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin: 0; color: white; background: #686868; height: 40px;">
-<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="margin-top: 10px;">
-
-    
-    
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
-<!--PARTE IZQUIERDA-->
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
- 
- 
-    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-5" onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;alert=1&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=8&#39;" style="padding:0; cursor: pointer; font-family: Poppins; font-size:15px; left:30px;">
-Inicio</div>
-<div class="col-lg-2 col-md-2 col-sm-3 col-xs-5" onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;alert=1&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=8&#39;" style="padding:0; cursor: pointer; font-family: Poppins; font-size:15px; left:30px;">
-Tienda</div>
- <div class="col-lg-6 col-md-6 col-sm-3 col-xs-3" onclick="window.open(&#39;../librerias/mpdf/ver_documento_ecommerce.php?tipo_operacion=1&amp;controller=49&#39;, &#39;_blank&#39;);" style="padding:0;cursor: pointer; font-family: Poppins;padding-left: 10px; font-size:15px; left:30px;">
-Nosotros
-</div>
- 
-
-</div>
-
-</div>    
-</div>
-
-    
     
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="margin-top: 10px;">
-<!--PARTE DERECHA-->
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-right">
 
-</div>   
-</div>
+    <!--PARTE IZQUIERDA-->
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-5" onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;alert=1&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=8&#39;" style="padding:0; cursor: pointer; font-family: Poppins; font-size:15px; left:30px;">
+            Inicio</div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-5" onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;alert=1&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=8&#39;" style="padding:0; cursor: pointer; font-family: Poppins; font-size:15px; left:30px;">
+            Tienda</div>
+             <div class="col-lg-2 col-md-6 col-sm-3 col-xs-3" onclick="window.open(&#39;../librerias/mpdf/ver_documento_ecommerce.php?tipo_operacion=1&amp;controller=49&#39;, &#39;_blank&#39;);" style="padding:0;cursor: pointer; font-family: Poppins;padding-left: 10px; font-size:15px; left:30px;">
+            Nosotros
+            </div>
+        </div>
+   
+    </div>
+
+     
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="margin-top: 10px;">
+    <!--PARTE DERECHA-->
+       
+
+           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+             <div class="col-lg-10 col-md-6 col-sm-3 col-xs-3 text-end" onclick="window.open(&#39;../librerias/mpdf/ver_documento_ecommerce.php?tipo_operacion=1&amp;controller=49&#39;, &#39;_blank&#39;);" style="padding:0;cursor: pointer; font-family: Poppins;padding-left: 10px; font-size:15px; left:30px;">
+            <!--xxx-->
+            </div>
+                 <div class="col-lg-2 col-md-6 col-sm-3 col-xs-3 " onclick="window.open(&#39;../librerias/mpdf/ver_documento_ecommerce.php?tipo_operacion=1&amp;controller=49&#39;, &#39;_blank&#39;);" style="padding:0;cursor: pointer; font-family: Poppins;padding-left: 10px; font-size:15px; left:30px; text-end;">
+            Soporte 24/7
+            </div>
+            </div>
+           
+       
+
+    </div>
 </div>
-</div>
+    
+<!-- Area blanca -->
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding: 30px; padding-bottom: 5px; padding-top: 20px; height: 85px; ">
-<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" style="height: 60px; left:35px;">
 
-    <!-- Logo -->
-<a href="https://negocialab.com/e-commerce/shop.php?token=tkn-mama-sara-82938293481&amp;alert=1&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2" class="logo img-tabla" style="width: 220px; height: 100%; background-image: url(&#39;https://nelabsac-img-empresa.s3.amazonaws.com/1603930613_49_logonegroC.png&#39;); "></a>
-</div>
+     <!-- Logo -->
+    <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" style="height: 60px; left:47px;">
+       <a href="https://negocialab.com/e-commerce/shop.php?token=tkn-mama-sara-82938293481&amp;alert=1&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2" class="logo img-tabla" style="width: 220px; height: 100%; background-image: url(&#39;https://nelabsac-img-empresa.s3.amazonaws.com/1603930613_49_logonegroC.png&#39;); "></a>
+    </div>
+     
+     
 <div class="col-lg-5 col-md-4 col-sm-12 col-xs-12" style="left:50px;">
     
 <span style="position: absolute !important;margin-left: 17px !important;margin-top: 13px !important;color: black !important; font-size:20px !important; display: block !important;"><i class="fa fa-search"></i></span>
@@ -2692,7 +2697,7 @@ button .icon_left{
 </div> 
 <div class="col-12" style="cursor:pointer; left:0px">
 <div class="col-lg-2 col-md-3 col-sm-2 col-xs-4" style="padding:0;">    
-<span class="texto_tienda_online css_seccion" onclick="cambiar_seccion(1);" style="font-size: 15px; font-family: Poppins; color: green; border-bottom: 3px solid green;">TODOS LOS PRODUCTOS</span>
+<span class="texto_tienda_online css_seccion" onclick="cambiar_seccion(1);" style=" font-size: 15px; font-family: Poppins; color: green; border-bottom: 3px solid green;">TODOS LOS PRODUCTOS</span>
 </div>
    
 
@@ -2707,7 +2712,7 @@ button .icon_left{
 <div>
 
 <div class="container-xxl" > 
-    <div class="col-12 " style=" background:#08974F; padding:10rem 13rem; ">
+    <div class="col-12 " style=" background:#08974F; padding:13rem 14rem; ">
         <p style="color:#fff; font-size:47px ; font-family: Poppins; left:30px;  ">
             Canjea tus productos favoritos
                     </p>
@@ -4304,35 +4309,44 @@ height: 375px !important;
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin: 0 auto; padding: 0;">
    
 <div style="width: 100% !important; height: 180px !important; background: #fff; margin-top: 0px; margin-bottom: 10px; cursor: pointer;" class="img_tienda">
-<div onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=3&amp;p=351318&amp;table=1&amp;alert=1&#39;" style="width: 100%; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1644260852_07022022140732_16442608528.png&#39;) !important; background-size:contain; height: 180px;" class="img-tabla imagen_products">
-</div>
-<div class="col-lg-12 text-left" style=" font-size: 11px;padding-top: 10px;font-family: Poppins; font-weight: 600;padding-left: 17px; color: #828282; height: 25px; display: -webkit-box; max-height: 25px;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
-Jodowa</div>
-<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 0; cursor: pointer; display: block;height: 55px; max-height: 55px !important; overflow-x: hidden !important; overflow-y: auto !important; text-align: left; border-radius: 0px !important; padding-top: 4px;padding-left: 17px; padding-right: 17px;">
-<span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Fetuccini De Espinaca Keto 270 Gr- Jodowa">
-Fetuccini De Espinaca Keto 270 Gr- Jodowa</span>
-<div class="" style="font-size: 11px; color: green;; ">
-<i class="fa fa-check-circle" aria-hidden="true" style="font-size: 11px;color:green;"></i> En stock</div>
-
     
-</div>
-<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 18px;padding-top:0px;margin-bottom: 5px; display:;cursor: pointer; height: 15px !important; text-align: left; border-radius: 0px !important;">
+    <div onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=3&amp;p=351318&amp;table=1&amp;alert=1&#39;" style="width: 100%; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1644260852_07022022140732_16442608528.png&#39;) !important; background-size:contain; height: 180px;" class="img-tabla imagen_products">
+    </div>
+   
+    <!--contenido de producto-->
+    
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-12 text-left" style=" font-size: 11px;padding-top: 10px;font-family: Poppins; font-weight: 600;padding-left: 17px; color: #828282; height: 25px; display: -webkit-box; max-height: 25px;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
+        Violife</div>
+    </div>
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-7 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 0; cursor: pointer; display: block;height: 55px; max-height: 55px !important; overflow-x: hidden !important; overflow-y: auto !important; text-align: left; border-radius: 0px !important; padding-top: 4px;padding-left: 17px; padding-right: 17px;">
 
-<span style="color: black; font-size: 13px; font-weight: bold; font-family: Poppins; font-weight: 600;">
-S/ <span id="add_cart_span_precio_unitario2_351318">13.00</span>
-</span>
-</div>
+            <span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Fetuccini De Espinaca Keto 270 Gr- Jodowa">
+                L&aacute;minas Original 200gr  </span>
+
+        </div>
+        
+        <div class="col-lg-5 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 18px;padding-top:0px;margin-bottom: 5px; display:;cursor: pointer; height: 15px !important; text-align: left; border-radius: 0px !important;">
+
+            <span style="color: black; font-size: 13px; font-weight: bold; font-family: Poppins; font-weight: 600;">
+            S/ <span id="add_cart_span_precio_unitario2_351318">30.00</span>
+            </span>
+
+        </div>
+    
+    </div>
 
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 celular_paddin" style="margin-bottom: 25px;display: none;">
-<div class="grupo_botones" style="width: 100% !important; height: 30px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
-<button id="add_cart_btn_menos_351318" style="width: 22%!important;border-radius:5px; height: 25px !important; background: #8DC826; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
-<i class="fs-12 fa fa-minus" aria-hidden="true" style="color:white; font-size: 10px;"></i>
-</button>
-<input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351318" value="1" style="width: 40% !important; height: 25px !important;">
-<button id="add_cart_btn_mas_351318" style="border-radius:5px; width: 22% !important; height: 25px !important; background: #8DC826; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
-<i class="fs-12 fa fa-plus" aria-hidden="true" style="color: white; font-size: 10px;"></i>
-</button>
-</div>
+    <div class="grupo_botones" style="width: 100% !important; height: 30px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
+        <button id="add_cart_btn_menos_351318" style="width: 22%!important;border-radius:5px; height: 25px !important; background: #8DC826; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+            <i class="fs-12 fa fa-minus" aria-hidden="true" style="color:white; font-size: 10px;"></i>
+        </button>
+    <input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351318" value="1" style="width: 40% !important; height: 25px !important;">
+        <button id="add_cart_btn_mas_351318" style="border-radius:5px; width: 22% !important; height: 25px !important; background: #8DC826; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+        <i class="fs-12 fa fa-plus" aria-hidden="true" style="color: white; font-size: 10px;"></i>
+        </button>
+    </div>
 </div>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center arreglo_b" style="margin-bottom: 25px;">
     <input type="button" onclick="$(&#39;#modal_items_351318&#39;).modal(&#39;hide&#39;);" id="btn_card_add_351318" class="e-negocia-bg-primario-fijo" value="Agregar" style="width: 97px !important; height: 25px !important; text-align: center; font-size: 12px; border: 1px solid #828282 !important; background: #8DC826; border-radius: 5px; border-bottom-right-radius: 5px;">
@@ -4452,23 +4466,32 @@ eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama
 <div style="width: 100% !important; height: 180px !important; background: #fff; margin-top: 0px; margin-bottom: 10px; cursor: pointer;" class="img_tienda">
 <div onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=3&amp;p=351317&amp;table=1&amp;alert=1&#39;" style="width: 100%; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1644260621_07022022140341_16442606213.png&#39;) !important; background-size:contain; height: 180px;" class="img-tabla imagen_products">
 </div>
-<div class="col-lg-12 text-left" style=" font-size: 11px;padding-top: 10px;font-family: Poppins; font-weight: 600;padding-left: 17px; color: #828282; height: 25px; display: -webkit-box; max-height: 25px;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
-Jodowa</div>
-<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 0; cursor: pointer; display: block;height: 55px; max-height: 55px !important; overflow-x: hidden !important; overflow-y: auto !important; text-align: left; border-radius: 0px !important; padding-top: 4px;padding-left: 17px; padding-right: 17px;">
-<span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Pasta Penne Keto 270 Gr - Jodowa">
-Pasta Penne Keto 270 Gr - Jodowa</span>
-<div class="" style="font-size: 11px; color: green;; ">
-<i class="fa fa-check-circle" aria-hidden="true" style="font-size: 11px;color:green;"></i> En stock</div>
+    
+  <!--contenido de producto-->
+    
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-12 text-left" style=" font-size: 11px;padding-top: 10px;font-family: Poppins; font-weight: 600;padding-left: 17px; color: #828282; height: 25px; display: -webkit-box; max-height: 25px;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
+            Ol&eacute;ico</div>
+    </div>
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-7 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 0; cursor: pointer; display: block;height: 55px; max-height: 55px !important; overflow-x: hidden !important; overflow-y: auto !important; text-align: left; border-radius: 0px !important; padding-top: 4px;padding-left: 17px; padding-right: 17px;">
+
+            <span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Fetuccini De Espinaca Keto 270 Gr- Jodowa">
+                L&aacute;minas Original 200gr  </span>
+
+        </div>
+        
+        <div class="col-lg-5 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 18px;padding-top:0px;margin-bottom: 5px; display:;cursor: pointer; height: 15px !important; text-align: left; border-radius: 0px !important;">
+
+            <span style="color: black; font-size: 13px; font-weight: bold; font-family: Poppins; font-weight: 600;">
+            S/ <span id="add_cart_span_precio_unitario2_351318">30.00</span>
+            </span>
+
+        </div>
+    
+    </div>
 
     
-</div>
-<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 18px;padding-top:0px;margin-bottom: 5px; display:;cursor: pointer; height: 15px !important; text-align: left; border-radius: 0px !important;">
-
-<span style="color: black; font-size: 13px; font-weight: bold; font-family: Poppins; font-weight: 600;">
-S/ <span id="add_cart_span_precio_unitario2_351317">13.00</span>
-</span>
-</div>
-
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 celular_paddin" style="margin-bottom: 25px;display: none;">
 <div class="grupo_botones" style="width: 100% !important; height: 30px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
 <button id="add_cart_btn_menos_351317" style="width: 22%!important;border-radius:5px; height: 25px !important; background: #8DC826; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
@@ -4598,22 +4621,30 @@ eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama
 <div style="width: 100% !important; height: 180px !important; background: #fff; margin-top: 0px; margin-bottom: 10px; cursor: pointer;" class="img_tienda">
 <div onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=3&amp;p=351314&amp;table=1&amp;alert=1&#39;" style="width: 100%; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1644259198_07022022133958_16442591983.png&#39;) !important; background-size:contain; height: 180px;" class="img-tabla imagen_products">
 </div>
-<div class="col-lg-12 text-left" style=" font-size: 11px;padding-top: 10px;font-family: Poppins; font-weight: 600;padding-left: 17px; color: #828282; height: 25px; display: -webkit-box; max-height: 25px;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
-Jodowa</div>
-<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 0; cursor: pointer; display: block;height: 55px; max-height: 55px !important; overflow-x: hidden !important; overflow-y: auto !important; text-align: left; border-radius: 0px !important; padding-top: 4px;padding-left: 17px; padding-right: 17px;">
-<span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Chips De Chia Keto 120 Gr">
-Chips De Chia Keto 120 Gr</span>
-<div class="" style="font-size: 11px; color: green;; ">
-<i class="fa fa-check-circle" aria-hidden="true" style="font-size: 11px;color:green;"></i> En stock</div>
 
+ <!--contenido de producto-->
     
-</div>
-<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 18px;padding-top:0px;margin-bottom: 5px; display:;cursor: pointer; height: 15px !important; text-align: left; border-radius: 0px !important;">
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-12 text-left" style=" font-size: 11px;padding-top: 10px;font-family: Poppins; font-weight: 600;padding-left: 17px; color: #828282; height: 25px; display: -webkit-box; max-height: 25px;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
+        Violife</div>
+    </div>
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-7 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 0; cursor: pointer; display: block;height: 55px; max-height: 55px !important; overflow-x: hidden !important; overflow-y: auto !important; text-align: left; border-radius: 0px !important; padding-top: 4px;padding-left: 17px; padding-right: 17px;">
 
-<span style="color: black; font-size: 13px; font-weight: bold; font-family: Poppins; font-weight: 600;">
-S/ <span id="add_cart_span_precio_unitario2_351314">20.00</span>
-</span>
-</div>
+            <span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Fetuccini De Espinaca Keto 270 Gr- Jodowa">
+                L&aacute;minas Original 200gr  </span>
+
+        </div>
+        
+        <div class="col-lg-5 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 18px;padding-top:0px;margin-bottom: 5px; display:;cursor: pointer; height: 15px !important; text-align: left; border-radius: 0px !important;">
+
+            <span style="color: black; font-size: 13px; font-weight: bold; font-family: Poppins; font-weight: 600;">
+            S/ <span id="add_cart_span_precio_unitario2_351318">30.00</span>
+            </span>
+
+        </div>
+    
+    </div>
 
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 celular_paddin" style="margin-bottom: 25px;display: none;">
 <div class="grupo_botones" style="width: 100% !important; height: 30px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
@@ -4744,22 +4775,30 @@ eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama
 <div style="width: 100% !important; height: 180px !important; background: #fff; margin-top: 0px; margin-bottom: 10px; cursor: pointer;" class="img_tienda">
 <div onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=3&amp;p=350730&amp;table=1&amp;alert=1&#39;" style="width: 100%; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1643411271_28012022180751_16434112720.jpeg&#39;) !important; background-size:contain; height: 180px;" class="img-tabla imagen_products">
 </div>
-<div class="col-lg-12 text-left" style=" font-size: 11px;padding-top: 10px;font-family: Poppins; font-weight: 600;padding-left: 17px; color: #828282; height: 25px; display: -webkit-box; max-height: 25px;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
-Mimanía</div>
-<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 0; cursor: pointer; display: block;height: 55px; max-height: 55px !important; overflow-x: hidden !important; overflow-y: auto !important; text-align: left; border-radius: 0px !important; padding-top: 4px;padding-left: 17px; padding-right: 17px;">
-<span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Mantequilla De Mani Sin Stevia 430gr-mimanía">
-Mantequilla De Mani Sin Stevia 430gr-mimanía</span>
-<div class="" style="font-size: 11px; color: green;; ">
-<i class="fa fa-check-circle" aria-hidden="true" style="font-size: 11px;color:green;"></i> En stock</div>
 
+ <!--contenido de producto-->
     
-</div>
-<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 18px;padding-top:0px;margin-bottom: 5px; display:;cursor: pointer; height: 15px !important; text-align: left; border-radius: 0px !important;">
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-12 text-left" style=" font-size: 11px;padding-top: 10px;font-family: Poppins; font-weight: 600;padding-left: 17px; color: #828282; height: 25px; display: -webkit-box; max-height: 25px;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
+        Violife</div>
+    </div>
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-7 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 0; cursor: pointer; display: block;height: 55px; max-height: 55px !important; overflow-x: hidden !important; overflow-y: auto !important; text-align: left; border-radius: 0px !important; padding-top: 4px;padding-left: 17px; padding-right: 17px;">
 
-<span style="color: black; font-size: 13px; font-weight: bold; font-family: Poppins; font-weight: 600;">
-S/ <span id="add_cart_span_precio_unitario2_350730">24.00</span>
-</span>
-</div>
+            <span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Fetuccini De Espinaca Keto 270 Gr- Jodowa">
+                L&aacute;minas Original 200gr  </span>
+
+        </div>
+        
+        <div class="col-lg-5 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 18px;padding-top:0px;margin-bottom: 5px; display:;cursor: pointer; height: 15px !important; text-align: left; border-radius: 0px !important;">
+
+            <span style="color: black; font-size: 13px; font-weight: bold; font-family: Poppins; font-weight: 600;">
+            S/ <span id="add_cart_span_precio_unitario2_351318">30.00</span>
+            </span>
+
+        </div>
+    
+    </div>
 
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 celular_paddin" style="margin-bottom: 25px;display: none;">
 <div class="grupo_botones" style="width: 100% !important; height: 30px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
@@ -4890,22 +4929,29 @@ eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama
 <div style="width: 100% !important; height: 180px !important; background: #fff; margin-top: 0px; margin-bottom: 10px; cursor: pointer;" class="img_tienda">
 <div onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=3&amp;p=350669&amp;table=1&amp;alert=1&#39;" style="width: 100%; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1643384406_28012022104006_16433844066.jpeg&#39;) !important; background-size:contain; height: 180px;" class="img-tabla imagen_products">
 </div>
-<div class="col-lg-12 text-left" style=" font-size: 11px;padding-top: 10px;font-family: Poppins; font-weight: 600;padding-left: 17px; color: #828282; height: 25px; display: -webkit-box; max-height: 25px;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
-Tayta</div>
-<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 0; cursor: pointer; display: block;height: 55px; max-height: 55px !important; overflow-x: hidden !important; overflow-y: auto !important; text-align: left; border-radius: 0px !important; padding-top: 4px;padding-left: 17px; padding-right: 17px;">
-<span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Kombucha Fresa Y Muña- Tayta">
-Kombucha Fresa Y Muña- Tayta</span>
-<div class="" style="font-size: 11px; color: green;; ">
-<i class="fa fa-check-circle" aria-hidden="true" style="font-size: 11px;color:green;"></i> En stock</div>
-
+ <!--contenido de producto-->
     
-</div>
-<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 18px;padding-top:0px;margin-bottom: 5px; display:;cursor: pointer; height: 15px !important; text-align: left; border-radius: 0px !important;">
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-12 text-left" style=" font-size: 11px;padding-top: 10px;font-family: Poppins; font-weight: 600;padding-left: 17px; color: #828282; height: 25px; display: -webkit-box; max-height: 25px;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
+        Violife</div>
+    </div>
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-7 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 0; cursor: pointer; display: block;height: 55px; max-height: 55px !important; overflow-x: hidden !important; overflow-y: auto !important; text-align: left; border-radius: 0px !important; padding-top: 4px;padding-left: 17px; padding-right: 17px;">
 
-<span style="color: black; font-size: 13px; font-weight: bold; font-family: Poppins; font-weight: 600;">
-S/ <span id="add_cart_span_precio_unitario2_350669">11.00</span>
-</span>
-</div>
+            <span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Fetuccini De Espinaca Keto 270 Gr- Jodowa">
+                L&aacute;minas Original 200gr  </span>
+
+        </div>
+        
+        <div class="col-lg-5 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 18px;padding-top:0px;margin-bottom: 5px; display:;cursor: pointer; height: 15px !important; text-align: left; border-radius: 0px !important;">
+
+            <span style="color: black; font-size: 13px; font-weight: bold; font-family: Poppins; font-weight: 600;">
+            S/ <span id="add_cart_span_precio_unitario2_351318">30.00</span>
+            </span>
+
+        </div> 
+    
+    </div>
 
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 celular_paddin" style="margin-bottom: 25px;display: none;">
 <div class="grupo_botones" style="width: 100% !important; height: 30px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
