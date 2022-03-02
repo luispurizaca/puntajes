@@ -2094,7 +2094,7 @@ position: absolute;
      
      
 <div class="col-lg-5 col-md-4 col-sm-12 col-xs-12" style="left:50px;">
-    
+    <!-- Barra de buscador -->
 <span style="position: absolute !important;margin-left: 17px !important;margin-top: 13px !important;color: black !important; font-size:20px !important; display: block !important;"><i class="fa fa-search"></i></span>
 <input class="form-control input-sm ui-autocomplete-input" placeholder="Encuentra tus productos a canjear" autocomplete="off" type="text" id="fnlab_producto" style="width: 100%;height:40px; margin-top: 5px;box-sizing: border-box;border: 2px !important;border-radius: 15px;font-size: 15px;background-color: #F3F3F3;background-position: 10px 10px; background-repeat: no-repeat; padding: 12px 20px 12px 40px;">
 <input type="hidden" autocomplete="off" id="fnlab_id_producto" name="fnlab_id_producto" readonly="readonly">
@@ -2131,10 +2131,11 @@ $('#fnlab_id_producto').val("");
 </div>  
 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    
-    <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12" style="font-family: Poppins;font-weight: 700;padding:10px;display: flex;justify-content: center;">
+    <!-- icono del carrito -->
+   <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12" style="font-family: Poppins;font-weight: 700;padding:10px;display: flex;justify-content: center;">
 <div class="header-wrapicon2" style="float:left;">
 <img src="./index_files/images_icons_shopping-cart.png" class="header-icon1 js-show-header-dropdown" style="height: 23px; width: 23px;" alt="ICON" onclick="actualizar_item_cartera()">
+
 <span class="header-icons-noti e-negocia-bg-primario contador_items" style="color: white;margin-top:-5px;">0</span>
 <!-- Header cart noti -->
 <div class="header-cart header-dropdown">
@@ -2177,7 +2178,7 @@ Revisar
 
 </div>
 </div>
-    
+    <!-- indicador de puntos -->
     <div class="col-lg-5">
         <div class="col-lg-12 col-md-6 text-left" style="font-size: 15px;font-family: Poppins;font-weight: 700;padding:0px;padding-top: 10px;">
 Tienes (239)puntos|
@@ -2191,7 +2192,7 @@ Tienes (239)puntos|
 
 </div>      
 </div>
-
+<!-- menu desplegable dropdown-->
  <div class="dropdown">
   <a class="btn btn-secondary dropdown-toggle"  role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false" style="font-size: 15px;font-family: Poppins;font-weight: 700;padding:0px;padding-top: 10px;">
    Andrea Salinas
@@ -3498,7 +3499,7 @@ cambiar_pagina(1);
   
 <div class="col-xs-12 col-md-12 col-lg-12" style=" padding:0; margin-top:3px; margin-bottom: 3px;">
 <label class="container-checkbox" style="font-size: 15px;">
-<input type="checkbox" value="2923" id="categoria_marca_2923">L&aacute;minas Original
+<input type="checkbox" value="2923" id="categoria_marca_2923">L&aacute;minas Original2
 <span class="checkmark-box" style="background: white; border: 1px #ccc solid; border-radius:5px;width: 18px;height: 17px;"></span>
 </label>
 </div>
@@ -3650,7 +3651,7 @@ Marcas
   
 <div class="col-xs-12 col-md-12 col-lg-12" style=" padding:0; margin-top:3px; margin-bottom: 3px;">
 <label class="container-checkbox" style="font-size: 15px;">
-    <input type="checkbox" value="1444" id="categoria_marca_1444">&nbsp;L&aacute;minas Original
+    <input type="checkbox" value="1444" id="categoria_marca_1444">&nbsp;L&aacute;minas Original3
 <span class="checkmark-box" style="background: white; border: 1px #ccc solid; border-radius:5px;width: 18px;height: 17px;"></span>
 </label>
 </div>
@@ -3725,7 +3726,7 @@ cambiar_pagina(1);
   
 <div class="col-xs-12 col-md-12 col-lg-12" style=" padding:0; margin-top:3px; margin-bottom: 3px;">
 <label class="container-checkbox" style="font-size: 15px;">
-<input type="checkbox" value="2923" id="categoria_marca_2923">L&aacute;minas Original
+<input type="checkbox" value="2923" id="categoria_marca_2923">L&aacute;minas Original4
 <span class="checkmark-box" style="background: white; border: 1px #ccc solid; border-radius:5px;width: 18px;height: 17px;"></span>
 </label>
 </div>
@@ -4288,8 +4289,15 @@ cambiar_pagina(1);
 
 </div>
 </div>
-<!-- Tienda -->
+
+    
+    
+    
+    
+    <!-- Tienda -->
+    
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+  
 <div id="resultados" class="row" style="padding:0;"><style>
 @media only screen and (max-width: 768px){
 .tm_tienda{
@@ -4297,26 +4305,47 @@ height: 375px !important;
 }
 }    
 </style>
+  <div class="col-lg-12 ">
+         <div class="col-lg-11 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-1 col-md-6" style="padding:0; font-family: Poppins;">
+                Lacteos:
+                </div> 
+                <div class="col-lg-1 col-md-6 text-right" style="padding:0; font-weight: bold; color: #525252;">
+                    <u style="cursor:pointer; font-family: Poppins;" onclick="limpiar_filtro();">Ver todo </u>
+                    <p>.</p>
+                </div> 
+         </div> 
+         <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12"> 
+             <div class="col-lg-12 " style="padding:0; font-weight: bold; color: #525252;"> 
+                    
+                     <input type="button" onclick="" id="" class="" value="<" style="color: #fff; width: 28px !important; height: 28px !important; text-align: center; font-size: 20px; border: 1px solid #356B50 !important; background:#828282; border-radius: 20px; border-bottom-right-radius: 20px;">  
+                     <input type="button" onclick="" id="" class="" value=">" style="color: #fff; width: 28px !important; height: 28px !important; text-align: center; font-size: 20px; border: 1px solid #356B50 !important; background: #356B50; border-radius: 20px; border-bottom-right-radius: 20px;">  
 
+             </div>
+           
+         </div>
+             
+    
+    </div>
+    
    
 
-
-
-
+<!--CARTA RESUMEN de 1 PRODUCTO -->
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding:0;">
     
-<!--CARTA RESUMEN PRODUCTO-->
+    
+<!--fondo blanco -->
 <div class="tabla_block_producto_container" style="margin-right: 0px;">
 <div id="resultado_ajax_351318" style="display:none;"></div>
-<div class="items_shop img-tabla tm_tienda tabla_tmano margin_lef_clase" style="height: 330px; border: none; border-radius: 5px;">
-    
+<div class="items_shop img-tabla tm_tienda tabla_tmano margin_lef_clase" style="height: 400px;  border: none; border-radius: 5px;">
+   
 <!--DETALLE PRODUCTO-->
 <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 " style="margin: 0 auto; padding: 0;">
-   
-<div style="width: 100% !important; height: 180px !important; background: #fff; margin-top: 0px; margin-bottom: 10px; cursor: pointer;" class="img_tienda">
+<div style="width: 100% !important; height: 180px !important; background: #fff; margin-top: 0px; margin-bottom: 5px; cursor: pointer;" class="img_tienda">
     
-    <div onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=3&amp;p=351318&amp;table=1&amp;alert=1&#39;" style="width: 100%; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1644260852_07022022140732_16442608528.png&#39;) !important; background-size:contain; height: 180px;" class="img-tabla imagen_products">
-    </div>
+    <!--imagen del producto-->
+    <img src="./index_files/producto1.png" class="header-icon1 js-show-header-dropdown" style="width: 95%; border-radius: 0px !important; background-color: transparent;  background-size:contain; height: 260px; " alt="ICON" onclick="actualizar_item_cartera()">
+
    
     <!--contenido de producto-->
     
@@ -4324,11 +4353,12 @@ height: 375px !important;
         <div class="col-lg-12 text-left" style=" font-size: 11px;padding-top: 10px;font-family: Poppins; font-weight: 600;padding-left: 17px; color: #828282; height: 25px; display: -webkit-box; max-height: 25px;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
         Violife</div>
     </div>
+    
     <div class="col-lg-12 col-xs-12 col-sm-12">
         <div class="col-lg-7 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 0; cursor: pointer; display: block;height: 55px; max-height: 55px !important; overflow-x: hidden !important; overflow-y: auto !important; text-align: left; border-radius: 0px !important; padding-top: 4px;padding-left: 17px; padding-right: 17px;">
 
             <span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Fetuccini De Espinaca Keto 270 Gr- Jodowa">
-                L&aacute;minas Original 200gr  </span>
+                L&aacute;minas Original5 200gr  </span>
 
         </div>
         
@@ -4341,10 +4371,10 @@ height: 375px !important;
         </div>
     
     </div>
-
+<!--
 <div class="col-lg-12 col-xs-12 col-sm-12 col-md-6  celular_paddin" style="margin-bottom: 25px;display: none;">
     <div class="grupo_botones" style="width: 50% !important; height: 10px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
-        <button id="add_cart_btn_menos_351318" style="width: 22%!important;border-radius:5px; height: 25px !important; background: #8DC826; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+        <button id="add_cart_btn_menos_351318" style="width: 22%!important;border-radius:5px; height: 25px !important; background: #828282; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
             <i class="fs-12 fa fa-minus" aria-hidden="true" style="color:white; font-size: 10px;"></i>
         </button>
     <input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351318" value="1" style="width: 40% !important; height: 25px !important;">
@@ -4353,18 +4383,23 @@ height: 375px !important;
         </button>
     </div>
 </div>
+-->
+    <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12  " style="margin-bottom: 30px;">
+        <div class="col-lg-7">
+           
+            <input type="button" onclick="" id="" class="" value="-" style="width: 28px !important; height: 28px !important; color: #fff; text-align: center; font-size: 15px; border: 1px solid #356B50 !important; background: #356B50; border-radius: 7px; border-bottom-right-radius: 7px;">  
 
-<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12  text-center arreglo_b" style="margin-bottom: 20px;">
+            <span style=" color: #fff; padding: 8px ; color: #000; font-size: 15px; font-family: Poppins; font-weight: 600; -webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="producto1">
+                           0</span>
 
-        <input type="button" onclick="" id="btn_card_add_351318" class="e-negocia-bg-primario-fijo" value="-" style="width: 20px !important; height: 25px !important; text-align: center; font-size: 12px; border: 1px solid #828282 !important; background: #8DC826; border-radius: 5px; border-bottom-right-radius: 5px;">  
+            <input type="button" onclick="" id="" class="" value="+" style="color: #fff; width: 28px !important; height: 28px !important; text-align: center; font-size: 15px; border: 1px solid #356B50 !important; background: #356B50; border-radius: 7px; border-bottom-right-radius: 7px;">  
 
-        <span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Fetuccini De Espinaca Keto 270 Gr- Jodowa">
-                       0</span>
+        </div>
+         <div class="col-lg-5">
+            <input type="button" onclick="" id="" class="" value="Agregar" style="color: #fff; width: 90px !important; height: 30px !important; text-align: center; font-size: 12px; border: 1px solid #fff !important; background: #828282; border-radius: 8px; border-bottom-right-radius: 8px;">
+         </div>
+    </div>
 
-        <input type="button" onclick="$(&#39;#modal_items_351318&#39;).modal(&#39;hide&#39;);" id="btn_card_add_351318" class="e-negocia-bg-primario-fijo" value="+" style="width: 20px !important; height: 25px !important; text-align: center; font-size: 12px; border: 1px solid #828282 !important; background: #8DC826; border-radius: 5px; border-bottom-right-radius: 5px;">  
-
-        <input type="button" onclick="$(&#39;#modal_items_351318&#39;).modal(&#39;hide&#39;);" id="btn_card_add_351318" class="e-negocia-bg-primario-fijo" value="Agregar" style="width: 70px !important; height: 25px !important; text-align: center; font-size: 12px; border: 1px solid #828282 !important; background: #828282; border-radius: 5px; border-bottom-right-radius: 5px;">
-</div>
 </div>
 </div>
 <!--DETALLE PRODUCTO-->
@@ -4383,7 +4418,180 @@ height: 375px !important;
 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="margin-bottom: 10px;">
 <div style="width: 100%; height: 250px !important; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1644260852_07022022140732_16442608528.png&#39;);" class="img-tabla"></div>
+</div>-->
+<!--MODAL DE PRODUCTO
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:15px; margin-bottom: 25px;">
+<span style="font-weight: 700; font-size: 16px;">FETUCCINI DE ESPINACA KETO 270 GR- JODOWA</span>
+<hr style="width: 50px; padding:0; margin-top: 5px; margin-bottom: 0;">
 </div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="font-size: 14px; font-weight: 700; margin-bottom: 55px; display: ;">
+S/ <span id="add_cart_span_precio_unitario_351318">13.00</span>
+</div>
+<div class="col-xs-11 col-sm-11 col-md-10 col-lg-10"><hr></div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 25px;">
+<div style="width: 100% !important; height: 30px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
+<button id="add_cart_btn_menos_351318" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+<i class="fs-12 fa fa-minus" aria-hidden="true"></i>
+</button>
+<input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351318" value="1" style="width: 50% !important; height: 30px !important;">
+<button id="add_cart_btn_mas_351318" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+<i class="fs-12 fa fa-plus" aria-hidden="true"></i>
+</button>
+</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-8 col-lg-8" style="color: #008000; padding-top: 5px; margin-bottom: 25px;">
+<i class="fa fa-check-circle" aria-hidden="true" style="color: #008000;"></i> Sin Stock.</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
+<div class="col-xs-11 col-sm-11 col-md-7 col-lg-7" style="margin-bottom: 25px;">
+<input type="button" disabled="disabled"  onclick="$('#modal_items_351318').modal('hide');" id="btn_card_add_351318" class="e-negocia-bg-primario-fijo" value="Continuar" style="width: 100% !important; height: 30px !important; text-align: center; font-size: 14px; border: 1px solid #8DC826 !important; border-radius: 15px; border-bottom-right-radius: 15px;width: 150px !important;">
+<i class="fa fa-heart" aria-hidden="true" style="cursor: pointer; background: #fff; color: #8DC826; padding: 7px; border-radius:100%; border: 1px solid #8DC826;"></i>
+</div>
+</div>
+-->
+
+<script>
+//EJECUCION PRINCIPAL DE LA FUNCION CALCULAR
+var time_controller = '';
+$('#add_cart_cantidad_351318').on('keyup', function(){
+clearTimeout(time_controller);
+time_controller = setTimeout(function(){
+calcular_card(351318, 0);
+}, 100);
+});
+
+//EJECUTAR LA FUNCION CALCULAR MEDIANTE EL KEYUP DE LA EJECUCION PRINCIPAL
+$('#add_cart_btn_menos_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
+if(cantidad == ''){
+cantidad = 0;
+}
+var nueva_cantidad = parseFloat(cantidad) - 1;
+if(nueva_cantidad < 1){
+$('#add_cart_cantidad_351318').val(1);
+} else {
+$('#add_cart_cantidad_351318').val(nueva_cantidad);
+}
+clearTimeout(time_controller);
+time_controller = setTimeout(function(){
+calcular_card(351318, 0);
+}, 100);
+});
+$('#add_cart_btn_mas_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
+if(cantidad == ''){
+cantidad = 0;
+}
+var nueva_cantidad = parseFloat(cantidad) + 1;
+$('#add_cart_cantidad_351318').val(nueva_cantidad);
+clearTimeout(time_controller);
+time_controller = setTimeout(function(){
+calcular_card(351318, 0);
+}, 100);
+});
+
+$('#btn_card_add_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
+eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama-sara-82938293481&alert=1&GET_ID_USER=&GET_ID_SESSION=&token_session_id=81972207145865f9baaeba683fb4e3c2&negocia_operacion=3&p=351318&cantidad='+cantidad, '', '#resultado_ajax_351318'));
+});
+</script>
+</div>
+</div>
+</div>
+<!--MODAL DETALLE DESCRIPCION PRODUCTO-->
+
+</div>
+
+
+   <!--CARTA RESUMEN de 2 PRODUCTO -->
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding:0;">
+    
+    
+<!--fondo blanco -->
+<div class="tabla_block_producto_container" style="margin-right: 0px;">
+<div id="resultado_ajax_351318" style="display:none;"></div>
+<div class="items_shop img-tabla tm_tienda tabla_tmano margin_lef_clase" style="height: 400px; border: none; border-radius: 5px;">
+   
+<!--DETALLE PRODUCTO-->
+<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 " style="margin: 0 auto; padding: 0;">
+<div style="width: 100% !important; height: 180px !important; background: #fff; margin-top: 0px; margin-bottom: 5px; cursor: pointer;" class="img_tienda">
+    
+    <!--imagen del producto-->
+     <img src="./index_files/producto1.png" class="header-icon1 js-show-header-dropdown" style="width: 95%; border-radius: 0px !important; background-color: transparent;  background-size:contain; height: 260px; " alt="ICON" onclick="actualizar_item_cartera()">
+
+      
+    <!--contenido de producto-->
+    
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-12 text-left" style=" font-size: 11px;padding-top: 10px;font-family: Poppins; font-weight: 600;padding-left: 17px; color: #828282; height: 25px; display: -webkit-box; max-height: 25px;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
+        Violife</div>
+    </div>
+    
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-7 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 0; cursor: pointer; display: block;height: 55px; max-height: 55px !important; overflow-x: hidden !important; overflow-y: auto !important; text-align: left; border-radius: 0px !important; padding-top: 4px;padding-left: 17px; padding-right: 17px;">
+
+            <span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Fetuccini De Espinaca Keto 270 Gr- Jodowa">
+                L&aacute;minas Original6 200gr  </span>
+
+        </div>
+        
+        <div class="col-lg-5 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 18px;padding-top:0px;margin-bottom: 5px; display:;cursor: pointer; height: 15px !important; text-align: left; border-radius: 0px !important;">
+
+            <span style="color: black; font-size: 13px; font-weight: bold; font-family: Poppins; font-weight: 600;">
+            S/ <span id="add_cart_span_precio_unitario2_351318">30.00</span>
+            </span>
+
+        </div>
+    
+    </div>
+<!--
+<div class="col-lg-12 col-xs-12 col-sm-12 col-md-6  celular_paddin" style="margin-bottom: 25px;display: none;">
+    <div class="grupo_botones" style="width: 50% !important; height: 10px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
+        <button id="add_cart_btn_menos_351318" style="width: 22%!important;border-radius:5px; height: 25px !important; background: #828282; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+            <i class="fs-12 fa fa-minus" aria-hidden="true" style="color:white; font-size: 10px;"></i>
+        </button>
+    <input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351318" value="1" style="width: 40% !important; height: 25px !important;">
+        <button id="add_cart_btn_mas_351318" style="border-radius:5px; width: 22% !important; height: 25px !important; background: #828282; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+        <i class="fs-12 fa fa-plus" aria-hidden="true" style="color: white; font-size: 10px;"></i>
+        </button>
+    </div>
+</div>
+-->
+    <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12  " style="margin-bottom: 30px;">
+        <div class="col-lg-7">
+           
+            <input type="button" onclick="" id="" class="" value="-" style="color: #fff; width: 28px !important; height: 28px !important; text-align: center; font-size: 15px; border: 1px solid #356B50 !important; background: #356B50; border-radius: 7px; border-bottom-right-radius: 7px;">  
+
+            <span style=" color: #fff; padding: 8px ; color: #000; font-size: 15px; font-family: Poppins; font-weight: 600; -webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="producto1">
+                           0</span>
+
+            <input type="button" onclick="" id="" class="" value="+" style="color: #fff; width: 28px !important; height: 28px !important; text-align: center; font-size: 15px; border: 1px solid #356B50 !important; background: #356B50; border-radius: 7px; border-bottom-right-radius: 7px;">  
+
+        </div>
+         <div class="col-lg-5">
+            <input type="button" onclick="" id="" class="" value="Agregar" style="color: #fff; width: 90px !important; height: 30px !important; text-align: center; font-size: 12px; border: 1px solid #fff !important; background: #828282; border-radius: 8px; border-bottom-right-radius: 8px;">
+         </div>
+    </div>
+
+</div>
+</div>
+<!--DETALLE PRODUCTO-->
+
+<!--OPCIONES HOVER PRODUCTO-->
+
+<!--OPCIONES HOVER PRODUCTO-->
+
+</div>
+</div>
+<!--CARTA RESUMEN PRODUCTO-->
+
+<div class="modal fade in" id="modal_items_351318" tabindex="-1" role="dialog" style="margin-top: 5%; background: rgb(0, 0, 0, 0.6); z-index: 2147483647; margin: 0px;">
+<div class="modal-dialog modal-lg" role="document" style="margin-top: 5%;">
+<div class="modal-header" style="background: #fff; border: 1px solid #999;">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="margin-bottom: 10px;">
+<div style="width: 100%; height: 250px !important; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1644260852_07022022140732_16442608528.png&#39;);" class="img-tabla"></div>
+</div>-->
 <!--MODAL DE PRODUCTO
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:15px; margin-bottom: 25px;">
@@ -4467,186 +4675,36 @@ eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama
 
 </div>
    
+   
+<!--CARTA RESUMEN de 3 PRODUCTO -->
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding:0;">
     
-<!--CARTA RESUMEN PRODUCTO-->
+    
+<!--fondo blanco -->
 <div class="tabla_block_producto_container" style="margin-right: 0px;">
-<div id="resultado_ajax_351317" style="display:none;"></div>
-<div class="items_shop img-tabla tm_tienda tabla_tmano margin_rigt_clase" style="height: 330px; border: none; border-radius: 5px;">
-    
-<!--DETALLE PRODUCTO-->
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin: 0 auto; padding: 0;">
+<div id="resultado_ajax_351318" style="display:none;"></div>
+<div class="items_shop img-tabla tm_tienda tabla_tmano margin_lef_clase" style="height: 400px; border: none; border-radius: 5px;">
    
-<div style="width: 100% !important; height: 180px !important; background: #fff; margin-top: 0px; margin-bottom: 10px; cursor: pointer;" class="img_tienda">
-<div onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=3&amp;p=351317&amp;table=1&amp;alert=1&#39;" style="width: 100%; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1644260621_07022022140341_16442606213.png&#39;) !important; background-size:contain; height: 180px;" class="img-tabla imagen_products">
-</div>
-    
-  <!--contenido de producto-->
-    
-    <div class="col-lg-12 col-xs-12 col-sm-12">
-        <div class="col-lg-12 text-left" style=" font-size: 11px;padding-top: 10px;font-family: Poppins; font-weight: 600;padding-left: 17px; color: #828282; height: 25px; display: -webkit-box; max-height: 25px;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
-            Ol&eacute;ico</div>
-    </div>
-    <div class="col-lg-12 col-xs-12 col-sm-12">
-        <div class="col-lg-7 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 0; cursor: pointer; display: block;height: 55px; max-height: 55px !important; overflow-x: hidden !important; overflow-y: auto !important; text-align: left; border-radius: 0px !important; padding-top: 4px;padding-left: 17px; padding-right: 17px;">
-
-            <span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Fetuccini De Espinaca Keto 270 Gr- Jodowa">
-                L&aacute;minas Original 200gr  </span>
-
-        </div>
-        
-        <div class="col-lg-5 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 18px;padding-top:0px;margin-bottom: 5px; display:;cursor: pointer; height: 15px !important; text-align: left; border-radius: 0px !important;">
-
-            <span style="color: black; font-size: 13px; font-weight: bold; font-family: Poppins; font-weight: 600;">
-            S/ <span id="add_cart_span_precio_unitario2_351318">30.00</span>
-            </span>
-
-        </div>
-    
-    </div>
-
-    
-<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 celular_paddin" style="margin-bottom: 25px;display: none;">
-<div class="grupo_botones" style="width: 100% !important; height: 30px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
-<button id="add_cart_btn_menos_351317" style="width: 22%!important;border-radius:5px; height: 25px !important; background: #8DC826; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
-<i class="fs-12 fa fa-minus" aria-hidden="true" style="color:white; font-size: 10px;"></i>
-</button>
-<input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351317" value="1" style="width: 40% !important; height: 25px !important;">
-<button id="add_cart_btn_mas_351317" style="border-radius:5px; width: 22% !important; height: 25px !important; background: #8DC826; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
-<i class="fs-12 fa fa-plus" aria-hidden="true" style="color: white; font-size: 10px;"></i>
-</button>
-</div>
-</div>
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center arreglo_b" style="margin-bottom: 25px;">
-    <input type="button" onclick="$(&#39;#modal_items_351317&#39;).modal(&#39;hide&#39;);" id="btn_card_add_351317" class="e-negocia-bg-primario-fijo" value="Agregar" style="width: 97px !important; height: 25px !important; text-align: center; font-size: 12px; border: 1px solid #828282 !important; background: #8DC826; border-radius: 5px; border-bottom-right-radius: 5px;">
-</div>
-</div>
-</div>
 <!--DETALLE PRODUCTO-->
-
-<!--OPCIONES HOVER PRODUCTO-->
-
-<!--OPCIONES HOVER PRODUCTO-->
-
-</div>
-</div>
-<!--CARTA RESUMEN PRODUCTO-->
-
-<div class="modal fade in" id="modal_items_351317" tabindex="-1" role="dialog" style="margin-top: 5%; background: rgb(0, 0, 0, 0.6); z-index: 2147483647; margin: 0px;">
-<div class="modal-dialog modal-lg" role="document" style="margin-top: 5%;">
-<div class="modal-header" style="background: #fff; border: 1px solid #999;">
-<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="margin-bottom: 10px;">
-<div style="width: 100%; height: 250px !important; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1644260621_07022022140341_16442606213.png&#39;);" class="img-tabla"></div>
-</div>
-<!--MODAL DE PRODUCTO
-<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:15px; margin-bottom: 25px;">
-<span style="font-weight: 700; font-size: 16px;">PASTA PENNE KETO 270 GR - JODOWA</span>
-<hr style="width: 50px; padding:0; margin-top: 5px; margin-bottom: 0;">
-</div>
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="font-size: 14px; font-weight: 700; margin-bottom: 55px; display: ;">
-S/ <span id="add_cart_span_precio_unitario_351317">13.00</span>
-</div>
-<div class="col-xs-11 col-sm-11 col-md-10 col-lg-10"><hr></div>
-<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 25px;">
-<div style="width: 100% !important; height: 30px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
-<button id="add_cart_btn_menos_351317" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
-<i class="fs-12 fa fa-minus" aria-hidden="true"></i>
-</button>
-<input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351317" value="1" style="width: 50% !important; height: 30px !important;">
-<button id="add_cart_btn_mas_351317" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
-<i class="fs-12 fa fa-plus" aria-hidden="true"></i>
-</button>
-</div>
-</div>
-<div class="col-xs-6 col-sm-6 col-md-8 col-lg-8" style="color: #008000; padding-top: 5px; margin-bottom: 25px;">
-<i class="fa fa-check-circle" aria-hidden="true" style="color: #008000;"></i> Sin Stock.</div>
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
-<div class="col-xs-11 col-sm-11 col-md-7 col-lg-7" style="margin-bottom: 25px;">
-<input type="button" disabled="disabled"  onclick="$('#modal_items_351317').modal('hide');" id="btn_card_add_351317" class="e-negocia-bg-primario-fijo" value="Continuar" style="width: 100% !important; height: 30px !important; text-align: center; font-size: 14px; border: 1px solid #8DC826 !important; border-radius: 15px; border-bottom-right-radius: 15px;width: 150px !important;">
-<i class="fa fa-heart" aria-hidden="true" style="cursor: pointer; background: #fff; color: #8DC826; padding: 7px; border-radius:100%; border: 1px solid #8DC826;"></i>
-</div>
-</div>
--->
-
-<script>
-//EJECUCION PRINCIPAL DE LA FUNCION CALCULAR
-var time_controller = '';
-$('#add_cart_cantidad_351317').on('keyup', function(){
-clearTimeout(time_controller);
-time_controller = setTimeout(function(){
-calcular_card(351317, 0);
-}, 100);
-});
-
-//EJECUTAR LA FUNCION CALCULAR MEDIANTE EL KEYUP DE LA EJECUCION PRINCIPAL
-$('#add_cart_btn_menos_351317').on('click', function(){
-var cantidad = $('#add_cart_cantidad_351317').val();
-if(cantidad == ''){
-cantidad = 0;
-}
-var nueva_cantidad = parseFloat(cantidad) - 1;
-if(nueva_cantidad < 1){
-$('#add_cart_cantidad_351317').val(1);
-} else {
-$('#add_cart_cantidad_351317').val(nueva_cantidad);
-}
-clearTimeout(time_controller);
-time_controller = setTimeout(function(){
-calcular_card(351317, 0);
-}, 100);
-});
-$('#add_cart_btn_mas_351317').on('click', function(){
-var cantidad = $('#add_cart_cantidad_351317').val();
-if(cantidad == ''){
-cantidad = 0;
-}
-var nueva_cantidad = parseFloat(cantidad) + 1;
-$('#add_cart_cantidad_351317').val(nueva_cantidad);
-clearTimeout(time_controller);
-time_controller = setTimeout(function(){
-calcular_card(351317, 0);
-}, 100);
-});
-
-$('#btn_card_add_351317').on('click', function(){
-var cantidad = $('#add_cart_cantidad_351317').val();
-eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama-sara-82938293481&alert=1&GET_ID_USER=&GET_ID_SESSION=&token_session_id=81972207145865f9baaeba683fb4e3c2&negocia_operacion=3&p=351317&cantidad='+cantidad, '', '#resultado_ajax_351317'));
-});
-</script>
-</div>
-</div>
-</div>
-<!--MODAL DETALLE DESCRIPCION PRODUCTO-->
-
-</div>
-   
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding:0;">
+<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 " style="margin: 0 auto; padding: 0;">
+<div style="width: 100% !important; height: 180px !important; background: #fff; margin-top: 0px; margin-bottom: 5px; cursor: pointer;" class="img_tienda">
     
-<!--CARTA RESUMEN PRODUCTO-->
-<div class="tabla_block_producto_container" style="margin-right: 0px;">
-<div id="resultado_ajax_351314" style="display:none;"></div>
-<div class="items_shop img-tabla tm_tienda tabla_tmano margin_lef_clase" style="height: 330px; border: none; border-radius: 5px;">
-    
-<!--DETALLE PRODUCTO-->
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin: 0 auto; padding: 0;">
-   
-<div style="width: 100% !important; height: 180px !important; background: #fff; margin-top: 0px; margin-bottom: 10px; cursor: pointer;" class="img_tienda">
-<div onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=3&amp;p=351314&amp;table=1&amp;alert=1&#39;" style="width: 100%; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1644259198_07022022133958_16442591983.png&#39;) !important; background-size:contain; height: 180px;" class="img-tabla imagen_products">
-</div>
+    <!--imagen del producto-->
+   <img src="./index_files/producto1.png" class="header-icon1 js-show-header-dropdown" style="width: 95%; border-radius: 0px !important; background-color: transparent;  background-size:contain; height: 260px; " alt="ICON" onclick="actualizar_item_cartera()">
 
- <!--contenido de producto-->
+   
+    <!--contenido de producto-->
     
     <div class="col-lg-12 col-xs-12 col-sm-12">
         <div class="col-lg-12 text-left" style=" font-size: 11px;padding-top: 10px;font-family: Poppins; font-weight: 600;padding-left: 17px; color: #828282; height: 25px; display: -webkit-box; max-height: 25px;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
         Violife</div>
     </div>
+    
     <div class="col-lg-12 col-xs-12 col-sm-12">
         <div class="col-lg-7 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 0; cursor: pointer; display: block;height: 55px; max-height: 55px !important; overflow-x: hidden !important; overflow-y: auto !important; text-align: left; border-radius: 0px !important; padding-top: 4px;padding-left: 17px; padding-right: 17px;">
 
             <span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Fetuccini De Espinaca Keto 270 Gr- Jodowa">
-                L&aacute;minas Original 200gr  </span>
+                L&aacute;minas Original7 200gr  </span>
 
         </div>
         
@@ -4659,21 +4717,35 @@ eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama
         </div>
     
     </div>
+<!--
+<div class="col-lg-12 col-xs-12 col-sm-12 col-md-6  celular_paddin" style="margin-bottom: 25px;display: none;">
+    <div class="grupo_botones" style="width: 50% !important; height: 10px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
+        <button id="add_cart_btn_menos_351318" style="width: 22%!important;border-radius:5px; height: 25px !important; background: #828282; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+            <i class="fs-12 fa fa-minus" aria-hidden="true" style="color:white; font-size: 10px;"></i>
+        </button>
+    <input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351318" value="1" style="width: 40% !important; height: 25px !important;">
+        <button id="add_cart_btn_mas_351318" style="border-radius:5px; width: 22% !important; height: 25px !important; background: #828282; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+        <i class="fs-12 fa fa-plus" aria-hidden="true" style="color: white; font-size: 10px;"></i>
+        </button>
+    </div>
+</div>
+-->
+    <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12  " style="margin-bottom: 30px;">
+        <div class="col-lg-7">
+           
+            <input type="button" onclick="" id="" class="" value="-" style="color: #fff; width: 28px !important; height: 28px !important; text-align: center; font-size: 15px; border: 1px solid #356B50 !important; background: #356B50; border-radius: 7px; border-bottom-right-radius: 7px;">  
 
-<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 celular_paddin" style="margin-bottom: 25px;display: none;">
-<div class="grupo_botones" style="width: 100% !important; height: 30px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
-<button id="add_cart_btn_menos_351314" style="width: 22%!important;border-radius:5px; height: 25px !important; background: #8DC826; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
-<i class="fs-12 fa fa-minus" aria-hidden="true" style="color:white; font-size: 10px;"></i>
-</button>
-<input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351314" value="1" style="width: 40% !important; height: 25px !important;">
-<button id="add_cart_btn_mas_351314" style="border-radius:5px; width: 22% !important; height: 25px !important; background: #8DC826; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
-<i class="fs-12 fa fa-plus" aria-hidden="true" style="color: white; font-size: 10px;"></i>
-</button>
-</div>
-</div>
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center arreglo_b" style="margin-bottom: 25px;">
-    <input type="button" onclick="$(&#39;#modal_items_351314&#39;).modal(&#39;hide&#39;);" id="btn_card_add_351314" class="e-negocia-bg-primario-fijo" value="Agregar" style="width: 97px !important; height: 25px !important; text-align: center; font-size: 12px; border: 1px solid #828282 !important; background: #8DC826; border-radius: 5px; border-bottom-right-radius: 5px;">
-</div>
+            <span style="color: #fff; padding: 8px ; color: #000; font-size: 15px; font-family: Poppins; font-weight: 600; -webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="producto1">
+                           0</span>
+
+            <input type="button" onclick="" id="" class="" value="+" style="color: #fff; width: 28px !important; height: 28px !important; text-align: center; font-size: 15px; border: 1px solid #356B50 !important; background: #356B50; border-radius: 7px; border-bottom-right-radius: 7px;">  
+
+        </div>
+         <div class="col-lg-5">
+            <input type="button" onclick="" id="" class="" value="Agregar" style=" color: #fff; width: 90px !important; height: 30px !important; text-align: center; font-size: 12px; border: 1px solid #fff !important; background: #828282; border-radius: 8px; border-bottom-right-radius: 8px;">
+         </div>
+    </div>
+
 </div>
 </div>
 <!--DETALLE PRODUCTO-->
@@ -4686,30 +4758,30 @@ eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama
 </div>
 <!--CARTA RESUMEN PRODUCTO-->
 
-<div class="modal fade in" id="modal_items_351314" tabindex="-1" role="dialog" style="margin-top: 5%; background: rgb(0, 0, 0, 0.6); z-index: 2147483647; margin: 0px;">
+<div class="modal fade in" id="modal_items_351318" tabindex="-1" role="dialog" style="margin-top: 5%; background: rgb(0, 0, 0, 0.6); z-index: 2147483647; margin: 0px;">
 <div class="modal-dialog modal-lg" role="document" style="margin-top: 5%;">
 <div class="modal-header" style="background: #fff; border: 1px solid #999;">
 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="margin-bottom: 10px;">
-<div style="width: 100%; height: 250px !important; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1644259198_07022022133958_16442591983.png&#39;);" class="img-tabla"></div>
-</div>
+<div style="width: 100%; height: 250px !important; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1644260852_07022022140732_16442608528.png&#39;);" class="img-tabla"></div>
+</div>-->
 <!--MODAL DE PRODUCTO
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:15px; margin-bottom: 25px;">
-<span style="font-weight: 700; font-size: 16px;">CHIPS DE CHIA KETO 120 GR</span>
+<span style="font-weight: 700; font-size: 16px;">FETUCCINI DE ESPINACA KETO 270 GR- JODOWA</span>
 <hr style="width: 50px; padding:0; margin-top: 5px; margin-bottom: 0;">
 </div>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="font-size: 14px; font-weight: 700; margin-bottom: 55px; display: ;">
-S/ <span id="add_cart_span_precio_unitario_351314">20.00</span>
+S/ <span id="add_cart_span_precio_unitario_351318">13.00</span>
 </div>
 <div class="col-xs-11 col-sm-11 col-md-10 col-lg-10"><hr></div>
 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 25px;">
 <div style="width: 100% !important; height: 30px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
-<button id="add_cart_btn_menos_351314" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+<button id="add_cart_btn_menos_351318" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
 <i class="fs-12 fa fa-minus" aria-hidden="true"></i>
 </button>
-<input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351314" value="1" style="width: 50% !important; height: 30px !important;">
-<button id="add_cart_btn_mas_351314" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+<input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351318" value="1" style="width: 50% !important; height: 30px !important;">
+<button id="add_cart_btn_mas_351318" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
 <i class="fs-12 fa fa-plus" aria-hidden="true"></i>
 </button>
 </div>
@@ -4718,7 +4790,7 @@ S/ <span id="add_cart_span_precio_unitario_351314">20.00</span>
 <i class="fa fa-check-circle" aria-hidden="true" style="color: #008000;"></i> Sin Stock.</div>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
 <div class="col-xs-11 col-sm-11 col-md-7 col-lg-7" style="margin-bottom: 25px;">
-<input type="button" disabled="disabled"  onclick="$('#modal_items_351314').modal('hide');" id="btn_card_add_351314" class="e-negocia-bg-primario-fijo" value="Continuar" style="width: 100% !important; height: 30px !important; text-align: center; font-size: 14px; border: 1px solid #8DC826 !important; border-radius: 15px; border-bottom-right-radius: 15px;width: 150px !important;">
+<input type="button" disabled="disabled"  onclick="$('#modal_items_351318').modal('hide');" id="btn_card_add_351318" class="e-negocia-bg-primario-fijo" value="Continuar" style="width: 100% !important; height: 30px !important; text-align: center; font-size: 14px; border: 1px solid #8DC826 !important; border-radius: 15px; border-bottom-right-radius: 15px;width: 150px !important;">
 <i class="fa fa-heart" aria-hidden="true" style="cursor: pointer; background: #fff; color: #8DC826; padding: 7px; border-radius:100%; border: 1px solid #8DC826;"></i>
 </div>
 </div>
@@ -4727,46 +4799,46 @@ S/ <span id="add_cart_span_precio_unitario_351314">20.00</span>
 <script>
 //EJECUCION PRINCIPAL DE LA FUNCION CALCULAR
 var time_controller = '';
-$('#add_cart_cantidad_351314').on('keyup', function(){
+$('#add_cart_cantidad_351318').on('keyup', function(){
 clearTimeout(time_controller);
 time_controller = setTimeout(function(){
-calcular_card(351314, 0);
+calcular_card(351318, 0);
 }, 100);
 });
 
 //EJECUTAR LA FUNCION CALCULAR MEDIANTE EL KEYUP DE LA EJECUCION PRINCIPAL
-$('#add_cart_btn_menos_351314').on('click', function(){
-var cantidad = $('#add_cart_cantidad_351314').val();
+$('#add_cart_btn_menos_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
 if(cantidad == ''){
 cantidad = 0;
 }
 var nueva_cantidad = parseFloat(cantidad) - 1;
 if(nueva_cantidad < 1){
-$('#add_cart_cantidad_351314').val(1);
+$('#add_cart_cantidad_351318').val(1);
 } else {
-$('#add_cart_cantidad_351314').val(nueva_cantidad);
+$('#add_cart_cantidad_351318').val(nueva_cantidad);
 }
 clearTimeout(time_controller);
 time_controller = setTimeout(function(){
-calcular_card(351314, 0);
+calcular_card(351318, 0);
 }, 100);
 });
-$('#add_cart_btn_mas_351314').on('click', function(){
-var cantidad = $('#add_cart_cantidad_351314').val();
+$('#add_cart_btn_mas_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
 if(cantidad == ''){
 cantidad = 0;
 }
 var nueva_cantidad = parseFloat(cantidad) + 1;
-$('#add_cart_cantidad_351314').val(nueva_cantidad);
+$('#add_cart_cantidad_351318').val(nueva_cantidad);
 clearTimeout(time_controller);
 time_controller = setTimeout(function(){
-calcular_card(351314, 0);
+calcular_card(351318, 0);
 }, 100);
 });
 
-$('#btn_card_add_351314').on('click', function(){
-var cantidad = $('#add_cart_cantidad_351314').val();
-eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama-sara-82938293481&alert=1&GET_ID_USER=&GET_ID_SESSION=&token_session_id=81972207145865f9baaeba683fb4e3c2&negocia_operacion=3&p=351314&cantidad='+cantidad, '', '#resultado_ajax_351314'));
+$('#btn_card_add_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
+eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama-sara-82938293481&alert=1&GET_ID_USER=&GET_ID_SESSION=&token_session_id=81972207145865f9baaeba683fb4e3c2&negocia_operacion=3&p=351318&cantidad='+cantidad, '', '#resultado_ajax_351318'));
 });
 </script>
 </div>
@@ -4776,31 +4848,35 @@ eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama
 
 </div>
    
+<!--CARTA RESUMEN de 4 PRODUCTO -->
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding:0;">
     
-<!--CARTA RESUMEN PRODUCTO-->
-<div class="tabla_block_producto_container" style="margin-right: 0px;">
-<div id="resultado_ajax_350730" style="display:none;"></div>
-<div class="items_shop img-tabla tm_tienda tabla_tmano margin_rigt_clase" style="height: 330px; border: none; border-radius: 5px;">
     
-<!--DETALLE PRODUCTO-->
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin: 0 auto; padding: 0;">
+<!--fondo blanco -->
+<div class="tabla_block_producto_container" style="margin-right: 0px;">
+<div id="resultado_ajax_351318" style="display:none;"></div>
+<div class="items_shop img-tabla tm_tienda tabla_tmano margin_lef_clase" style="height: 400px; border: none; border-radius: 5px;">
    
-<div style="width: 100% !important; height: 180px !important; background: #fff; margin-top: 0px; margin-bottom: 10px; cursor: pointer;" class="img_tienda">
-<div onclick="location.href=&#39;shop.php?token=tkn-mama-sara-82938293481&amp;GET_ID_USER=&amp;GET_ID_SESSION=&amp;token_session_id=81972207145865f9baaeba683fb4e3c2&amp;id=3&amp;p=350730&amp;table=1&amp;alert=1&#39;" style="width: 100%; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1643411271_28012022180751_16434112720.jpeg&#39;) !important; background-size:contain; height: 180px;" class="img-tabla imagen_products">
-</div>
+<!--DETALLE PRODUCTO-->
+<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 " style="margin: 0 auto; padding: 0;">
+<div style="width: 100% !important; height: 180px !important; background: #fff; margin-top: 0px; margin-bottom: 5px; cursor: pointer;" class="img_tienda">
+    
+    <!--imagen del producto-->
+     <img src="./index_files/producto1.png" class="header-icon1 js-show-header-dropdown" style="width: 95%; border-radius: 0px !important; background-color: transparent;  background-size:contain; height: 260px; " alt="ICON" onclick="actualizar_item_cartera()">
 
- <!--contenido de producto-->
+   
+    <!--contenido de producto-->
     
     <div class="col-lg-12 col-xs-12 col-sm-12">
         <div class="col-lg-12 text-left" style=" font-size: 11px;padding-top: 10px;font-family: Poppins; font-weight: 600;padding-left: 17px; color: #828282; height: 25px; display: -webkit-box; max-height: 25px;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
         Violife</div>
     </div>
+    
     <div class="col-lg-12 col-xs-12 col-sm-12">
         <div class="col-lg-7 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 0; cursor: pointer; display: block;height: 55px; max-height: 55px !important; overflow-x: hidden !important; overflow-y: auto !important; text-align: left; border-radius: 0px !important; padding-top: 4px;padding-left: 17px; padding-right: 17px;">
 
             <span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Fetuccini De Espinaca Keto 270 Gr- Jodowa">
-                L&aacute;minas Original 200gr  </span>
+                L&aacute;minas Original8 200gr  </span>
 
         </div>
         
@@ -4813,21 +4889,35 @@ eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama
         </div>
     
     </div>
+<!--
+<div class="col-lg-12 col-xs-12 col-sm-12 col-md-6  celular_paddin" style="margin-bottom: 25px;display: none;">
+    <div class="grupo_botones" style="width: 50% !important; height: 10px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
+        <button id="add_cart_btn_menos_351318" style="width: 22%!important;border-radius:5px; height: 25px !important; background: #828282; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+            <i class="fs-12 fa fa-minus" aria-hidden="true" style="color:white; font-size: 10px;"></i>
+        </button>
+    <input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351318" value="1" style="width: 40% !important; height: 25px !important;">
+        <button id="add_cart_btn_mas_351318" style="border-radius:5px; width: 22% !important; height: 25px !important; background: #828282; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+        <i class="fs-12 fa fa-plus" aria-hidden="true" style="color: white; font-size: 10px;"></i>
+        </button>
+    </div>
+</div>
+-->
+    <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12  " style="margin-bottom: 30px;">
+        <div class="col-lg-7">
+           
+            <input type="button" onclick="" id="" class="" value="-" style="color: #fff; width: 28px !important; height: 28px !important; text-align: center; font-size: 15px; border: 1px solid #356B50 !important; background: #356B50; border-radius: 7px; border-bottom-right-radius: 7px;">  
 
-<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 celular_paddin" style="margin-bottom: 25px;display: none;">
-<div class="grupo_botones" style="width: 100% !important; height: 30px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
-<button id="add_cart_btn_menos_350730" style="width: 22%!important;border-radius:5px; height: 25px !important; background: #8DC826; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
-<i class="fs-12 fa fa-minus" aria-hidden="true" style="color:white; font-size: 10px;"></i>
-</button>
-<input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_350730" value="1" style="width: 40% !important; height: 25px !important;">
-<button id="add_cart_btn_mas_350730" style="border-radius:5px; width: 22% !important; height: 25px !important; background: #8DC826; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
-<i class="fs-12 fa fa-plus" aria-hidden="true" style="color: white; font-size: 10px;"></i>
-</button>
-</div>
-</div>
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center arreglo_b" style="margin-bottom: 25px;">
-    <input type="button" onclick="$(&#39;#modal_items_350730&#39;).modal(&#39;hide&#39;);" id="btn_card_add_350730" class="e-negocia-bg-primario-fijo" value="Agregar" style="width: 97px !important; height: 25px !important; text-align: center; font-size: 12px; border: 1px solid #828282 !important; background: #8DC826; border-radius: 5px; border-bottom-right-radius: 5px;">
-</div>
+            <span style=" color: #fff; padding: 8px ; color: #000; font-size: 15px; font-family: Poppins; font-weight: 600; -webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="producto1">
+                           0</span>
+
+            <input type="button" onclick="" id="" class="" value="+" style="color: #fff; width: 28px !important; height: 28px !important; text-align: center; font-size: 15px; border: 1px solid #356B50 !important; background: #356B50; border-radius: 7px; border-bottom-right-radius: 7px;">  
+
+        </div>
+         <div class="col-lg-5">
+            <input type="button" onclick="" id="" class="" value="Agregar" style="color: #fff; width: 90px !important; height: 30px !important; text-align: center; font-size: 12px; border: 1px solid #fff !important; background: #828282; border-radius: 8px; border-bottom-right-radius: 8px;">
+         </div>
+    </div>
+
 </div>
 </div>
 <!--DETALLE PRODUCTO-->
@@ -4840,30 +4930,30 @@ eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama
 </div>
 <!--CARTA RESUMEN PRODUCTO-->
 
-<div class="modal fade in" id="modal_items_350730" tabindex="-1" role="dialog" style="margin-top: 5%; background: rgb(0, 0, 0, 0.6); z-index: 2147483647; margin: 0px;">
+<div class="modal fade in" id="modal_items_351318" tabindex="-1" role="dialog" style="margin-top: 5%; background: rgb(0, 0, 0, 0.6); z-index: 2147483647; margin: 0px;">
 <div class="modal-dialog modal-lg" role="document" style="margin-top: 5%;">
 <div class="modal-header" style="background: #fff; border: 1px solid #999;">
 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="margin-bottom: 10px;">
-<div style="width: 100%; height: 250px !important; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1643411271_28012022180751_16434112720.jpeg&#39;);" class="img-tabla"></div>
-</div>
+<div style="width: 100%; height: 250px !important; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1644260852_07022022140732_16442608528.png&#39;);" class="img-tabla"></div>
+</div>-->
 <!--MODAL DE PRODUCTO
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:15px; margin-bottom: 25px;">
-<span style="font-weight: 700; font-size: 16px;">MANTEQUILLA DE MANI SIN STEVIA 430GR-MIMAN�?A</span>
+<span style="font-weight: 700; font-size: 16px;">FETUCCINI DE ESPINACA KETO 270 GR- JODOWA</span>
 <hr style="width: 50px; padding:0; margin-top: 5px; margin-bottom: 0;">
 </div>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="font-size: 14px; font-weight: 700; margin-bottom: 55px; display: ;">
-S/ <span id="add_cart_span_precio_unitario_350730">24.00</span>
+S/ <span id="add_cart_span_precio_unitario_351318">13.00</span>
 </div>
 <div class="col-xs-11 col-sm-11 col-md-10 col-lg-10"><hr></div>
 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 25px;">
 <div style="width: 100% !important; height: 30px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
-<button id="add_cart_btn_menos_350730" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+<button id="add_cart_btn_menos_351318" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
 <i class="fs-12 fa fa-minus" aria-hidden="true"></i>
 </button>
-<input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_350730" value="1" style="width: 50% !important; height: 30px !important;">
-<button id="add_cart_btn_mas_350730" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+<input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351318" value="1" style="width: 50% !important; height: 30px !important;">
+<button id="add_cart_btn_mas_351318" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
 <i class="fs-12 fa fa-plus" aria-hidden="true"></i>
 </button>
 </div>
@@ -4872,7 +4962,7 @@ S/ <span id="add_cart_span_precio_unitario_350730">24.00</span>
 <i class="fa fa-check-circle" aria-hidden="true" style="color: #008000;"></i> Sin Stock.</div>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
 <div class="col-xs-11 col-sm-11 col-md-7 col-lg-7" style="margin-bottom: 25px;">
-<input type="button" disabled="disabled"  onclick="$('#modal_items_350730').modal('hide');" id="btn_card_add_350730" class="e-negocia-bg-primario-fijo" value="Continuar" style="width: 100% !important; height: 30px !important; text-align: center; font-size: 14px; border: 1px solid #8DC826 !important; border-radius: 15px; border-bottom-right-radius: 15px;width: 150px !important;">
+<input type="button" disabled="disabled"  onclick="$('#modal_items_351318').modal('hide');" id="btn_card_add_351318" class="e-negocia-bg-primario-fijo" value="Continuar" style="width: 100% !important; height: 30px !important; text-align: center; font-size: 14px; border: 1px solid #8DC826 !important; border-radius: 15px; border-bottom-right-radius: 15px;width: 150px !important;">
 <i class="fa fa-heart" aria-hidden="true" style="cursor: pointer; background: #fff; color: #8DC826; padding: 7px; border-radius:100%; border: 1px solid #8DC826;"></i>
 </div>
 </div>
@@ -4881,46 +4971,432 @@ S/ <span id="add_cart_span_precio_unitario_350730">24.00</span>
 <script>
 //EJECUCION PRINCIPAL DE LA FUNCION CALCULAR
 var time_controller = '';
-$('#add_cart_cantidad_350730').on('keyup', function(){
+$('#add_cart_cantidad_351318').on('keyup', function(){
 clearTimeout(time_controller);
 time_controller = setTimeout(function(){
-calcular_card(350730, 0);
+calcular_card(351318, 0);
 }, 100);
 });
 
 //EJECUTAR LA FUNCION CALCULAR MEDIANTE EL KEYUP DE LA EJECUCION PRINCIPAL
-$('#add_cart_btn_menos_350730').on('click', function(){
-var cantidad = $('#add_cart_cantidad_350730').val();
+$('#add_cart_btn_menos_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
 if(cantidad == ''){
 cantidad = 0;
 }
 var nueva_cantidad = parseFloat(cantidad) - 1;
 if(nueva_cantidad < 1){
-$('#add_cart_cantidad_350730').val(1);
+$('#add_cart_cantidad_351318').val(1);
 } else {
-$('#add_cart_cantidad_350730').val(nueva_cantidad);
+$('#add_cart_cantidad_351318').val(nueva_cantidad);
 }
 clearTimeout(time_controller);
 time_controller = setTimeout(function(){
-calcular_card(350730, 0);
+calcular_card(351318, 0);
 }, 100);
 });
-$('#add_cart_btn_mas_350730').on('click', function(){
-var cantidad = $('#add_cart_cantidad_350730').val();
+$('#add_cart_btn_mas_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
 if(cantidad == ''){
 cantidad = 0;
 }
 var nueva_cantidad = parseFloat(cantidad) + 1;
-$('#add_cart_cantidad_350730').val(nueva_cantidad);
+$('#add_cart_cantidad_351318').val(nueva_cantidad);
 clearTimeout(time_controller);
 time_controller = setTimeout(function(){
-calcular_card(350730, 0);
+calcular_card(351318, 0);
 }, 100);
 });
 
-$('#btn_card_add_350730').on('click', function(){
-var cantidad = $('#add_cart_cantidad_350730').val();
-eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama-sara-82938293481&alert=1&GET_ID_USER=&GET_ID_SESSION=&token_session_id=81972207145865f9baaeba683fb4e3c2&negocia_operacion=3&p=350730&cantidad='+cantidad, '', '#resultado_ajax_350730'));
+$('#btn_card_add_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
+eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama-sara-82938293481&alert=1&GET_ID_USER=&GET_ID_SESSION=&token_session_id=81972207145865f9baaeba683fb4e3c2&negocia_operacion=3&p=351318&cantidad='+cantidad, '', '#resultado_ajax_351318'));
+});
+</script>
+</div>
+</div>
+</div>
+<!--MODAL DETALLE DESCRIPCION PRODUCTO-->
+
+</div>
+
+</div>
+        </div>
+    
+    
+    
+    <!-- Segunda fila de productos -->
+    
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+  
+<div id="resultados" class="row" style="padding:0;"><style>
+@media only screen and (max-width: 768px){
+.tm_tienda{
+height: 375px !important;
+}
+}    
+</style>
+  <div class="col-lg-12 ">
+         <div class="col-lg-11 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-1 col-md-6" style="padding:0; font-family: Poppins;">
+                Quesos:
+                </div> 
+                <div class="col-lg-1 col-md-6 text-right" style="padding:0; font-weight: bold; color: #525252;">
+                    <u style="cursor:pointer; font-family: Poppins;" onclick="limpiar_filtro();">Ver todo </u>
+                    <p>.</p>
+                </div> 
+         </div> 
+         <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12"> 
+             <div class="col-lg-12 " style="padding:0; font-weight: bold; color: #525252;"> 
+                    
+                     <input type="button" onclick="" id="" class="" value="<" style="color: #fff; width: 28px !important; height: 28px !important; text-align: center; font-size: 20px; border: 1px solid #356B50 !important; background:#828282; border-radius: 20px; border-bottom-right-radius: 20px;">  
+                     <input type="button" onclick="" id="" class="" value=">" style="color: #fff; width: 28px !important; height: 28px !important; text-align: center; font-size: 20px; border: 1px solid #356B50 !important; background: #356B50; border-radius: 20px; border-bottom-right-radius: 20px;">  
+
+             </div>
+           
+         </div>
+             
+    
+    </div>
+    
+   
+
+<!--CARTA RESUMEN de 1 PRODUCTO -->
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding:0;">
+    
+    
+<!--fondo blanco -->
+<div class="tabla_block_producto_container" style="margin-right: 0px;">
+<div id="resultado_ajax_351318" style="display:none;"></div>
+<div class="items_shop img-tabla tm_tienda tabla_tmano margin_lef_clase" style="height: 400px;  border: none; border-radius: 5px;">
+   
+<!--DETALLE PRODUCTO-->
+<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 " style="margin: 0 auto; padding: 0;">
+<div style="width: 100% !important; height: 180px !important; background: #fff; margin-top: 0px; margin-bottom: 5px; cursor: pointer;" class="img_tienda">
+    
+    <!--imagen del producto-->
+    <img src="./index_files/producto1.png" class="header-icon1 js-show-header-dropdown" style="width: 95%; border-radius: 0px !important; background-color: transparent;  background-size:contain; height: 260px; " alt="ICON" onclick="actualizar_item_cartera()">
+
+   
+    <!--contenido de producto-->
+    
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-12 text-left" style=" font-size: 11px;padding-top: 10px;font-family: Poppins; font-weight: 600;padding-left: 17px; color: #828282; height: 25px; display: -webkit-box; max-height: 25px;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
+        Violife</div>
+    </div>
+    
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-7 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 0; cursor: pointer; display: block;height: 55px; max-height: 55px !important; overflow-x: hidden !important; overflow-y: auto !important; text-align: left; border-radius: 0px !important; padding-top: 4px;padding-left: 17px; padding-right: 17px;">
+
+            <span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Fetuccini De Espinaca Keto 270 Gr- Jodowa">
+                L&aacute;minas Original5 200gr  </span>
+
+        </div>
+        
+        <div class="col-lg-5 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 18px;padding-top:0px;margin-bottom: 5px; display:;cursor: pointer; height: 15px !important; text-align: left; border-radius: 0px !important;">
+
+            <span style="color: black; font-size: 13px; font-weight: bold; font-family: Poppins; font-weight: 600;">
+            S/ <span id="add_cart_span_precio_unitario2_351318">30.00</span>
+            </span>
+
+        </div>
+    
+    </div>
+<!--
+<div class="col-lg-12 col-xs-12 col-sm-12 col-md-6  celular_paddin" style="margin-bottom: 25px;display: none;">
+    <div class="grupo_botones" style="width: 50% !important; height: 10px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
+        <button id="add_cart_btn_menos_351318" style="width: 22%!important;border-radius:5px; height: 25px !important; background: #828282; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+            <i class="fs-12 fa fa-minus" aria-hidden="true" style="color:white; font-size: 10px;"></i>
+        </button>
+    <input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351318" value="1" style="width: 40% !important; height: 25px !important;">
+        <button id="add_cart_btn_mas_351318" style="border-radius:5px; width: 22% !important; height: 25px !important; background: #828282; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+        <i class="fs-12 fa fa-plus" aria-hidden="true" style="color: white; font-size: 10px;"></i>
+        </button>
+    </div>
+</div>
+-->
+    <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12  " style="margin-bottom: 30px;">
+        <div class="col-lg-7">
+           
+            <input type="button" onclick="" id="" class="" value="-" style="width: 28px !important; height: 28px !important; color: #fff; text-align: center; font-size: 15px; border: 1px solid #356B50 !important; background: #356B50; border-radius: 7px; border-bottom-right-radius: 7px;">  
+
+            <span style=" color: #fff; padding: 8px ; color: #000; font-size: 15px; font-family: Poppins; font-weight: 600; -webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="producto1">
+                           0</span>
+
+            <input type="button" onclick="" id="" class="" value="+" style="color: #fff; width: 28px !important; height: 28px !important; text-align: center; font-size: 15px; border: 1px solid #356B50 !important; background: #356B50; border-radius: 7px; border-bottom-right-radius: 7px;">  
+
+        </div>
+         <div class="col-lg-5">
+            <input type="button" onclick="" id="" class="" value="Agregar" style="color: #fff; width: 90px !important; height: 30px !important; text-align: center; font-size: 12px; border: 1px solid #fff !important; background: #828282; border-radius: 8px; border-bottom-right-radius: 8px;">
+         </div>
+    </div>
+
+</div>
+</div>
+<!--DETALLE PRODUCTO-->
+
+<!--OPCIONES HOVER PRODUCTO-->
+
+<!--OPCIONES HOVER PRODUCTO-->
+
+</div>
+</div>
+<!--CARTA RESUMEN PRODUCTO-->
+
+<div class="modal fade in" id="modal_items_351318" tabindex="-1" role="dialog" style="margin-top: 5%; background: rgb(0, 0, 0, 0.6); z-index: 2147483647; margin: 0px;">
+<div class="modal-dialog modal-lg" role="document" style="margin-top: 5%;">
+<div class="modal-header" style="background: #fff; border: 1px solid #999;">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="margin-bottom: 10px;">
+<div style="width: 100%; height: 250px !important; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1644260852_07022022140732_16442608528.png&#39;);" class="img-tabla"></div>
+</div>-->
+<!--MODAL DE PRODUCTO
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:15px; margin-bottom: 25px;">
+<span style="font-weight: 700; font-size: 16px;">FETUCCINI DE ESPINACA KETO 270 GR- JODOWA</span>
+<hr style="width: 50px; padding:0; margin-top: 5px; margin-bottom: 0;">
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="font-size: 14px; font-weight: 700; margin-bottom: 55px; display: ;">
+S/ <span id="add_cart_span_precio_unitario_351318">13.00</span>
+</div>
+<div class="col-xs-11 col-sm-11 col-md-10 col-lg-10"><hr></div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 25px;">
+<div style="width: 100% !important; height: 30px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
+<button id="add_cart_btn_menos_351318" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+<i class="fs-12 fa fa-minus" aria-hidden="true"></i>
+</button>
+<input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351318" value="1" style="width: 50% !important; height: 30px !important;">
+<button id="add_cart_btn_mas_351318" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+<i class="fs-12 fa fa-plus" aria-hidden="true"></i>
+</button>
+</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-8 col-lg-8" style="color: #008000; padding-top: 5px; margin-bottom: 25px;">
+<i class="fa fa-check-circle" aria-hidden="true" style="color: #008000;"></i> Sin Stock.</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
+<div class="col-xs-11 col-sm-11 col-md-7 col-lg-7" style="margin-bottom: 25px;">
+<input type="button" disabled="disabled"  onclick="$('#modal_items_351318').modal('hide');" id="btn_card_add_351318" class="e-negocia-bg-primario-fijo" value="Continuar" style="width: 100% !important; height: 30px !important; text-align: center; font-size: 14px; border: 1px solid #8DC826 !important; border-radius: 15px; border-bottom-right-radius: 15px;width: 150px !important;">
+<i class="fa fa-heart" aria-hidden="true" style="cursor: pointer; background: #fff; color: #8DC826; padding: 7px; border-radius:100%; border: 1px solid #8DC826;"></i>
+</div>
+</div>
+-->
+
+<script>
+//EJECUCION PRINCIPAL DE LA FUNCION CALCULAR
+var time_controller = '';
+$('#add_cart_cantidad_351318').on('keyup', function(){
+clearTimeout(time_controller);
+time_controller = setTimeout(function(){
+calcular_card(351318, 0);
+}, 100);
+});
+
+//EJECUTAR LA FUNCION CALCULAR MEDIANTE EL KEYUP DE LA EJECUCION PRINCIPAL
+$('#add_cart_btn_menos_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
+if(cantidad == ''){
+cantidad = 0;
+}
+var nueva_cantidad = parseFloat(cantidad) - 1;
+if(nueva_cantidad < 1){
+$('#add_cart_cantidad_351318').val(1);
+} else {
+$('#add_cart_cantidad_351318').val(nueva_cantidad);
+}
+clearTimeout(time_controller);
+time_controller = setTimeout(function(){
+calcular_card(351318, 0);
+}, 100);
+});
+$('#add_cart_btn_mas_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
+if(cantidad == ''){
+cantidad = 0;
+}
+var nueva_cantidad = parseFloat(cantidad) + 1;
+$('#add_cart_cantidad_351318').val(nueva_cantidad);
+clearTimeout(time_controller);
+time_controller = setTimeout(function(){
+calcular_card(351318, 0);
+}, 100);
+});
+
+$('#btn_card_add_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
+eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama-sara-82938293481&alert=1&GET_ID_USER=&GET_ID_SESSION=&token_session_id=81972207145865f9baaeba683fb4e3c2&negocia_operacion=3&p=351318&cantidad='+cantidad, '', '#resultado_ajax_351318'));
+});
+</script>
+</div>
+</div>
+</div>
+<!--MODAL DETALLE DESCRIPCION PRODUCTO-->
+
+</div>
+
+
+   <!--CARTA RESUMEN de 2 PRODUCTO -->
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding:0;">
+    
+    
+<!--fondo blanco -->
+<div class="tabla_block_producto_container" style="margin-right: 0px;">
+<div id="resultado_ajax_351318" style="display:none;"></div>
+<div class="items_shop img-tabla tm_tienda tabla_tmano margin_lef_clase" style="height: 400px; border: none; border-radius: 5px;">
+   
+<!--DETALLE PRODUCTO-->
+<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 " style="margin: 0 auto; padding: 0;">
+<div style="width: 100% !important; height: 180px !important; background: #fff; margin-top: 0px; margin-bottom: 5px; cursor: pointer;" class="img_tienda">
+    
+    <!--imagen del producto-->
+     <img src="./index_files/producto1.png" class="header-icon1 js-show-header-dropdown" style="width: 95%; border-radius: 0px !important; background-color: transparent;  background-size:contain; height: 260px; " alt="ICON" onclick="actualizar_item_cartera()">
+
+      
+    <!--contenido de producto-->
+    
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-12 text-left" style=" font-size: 11px;padding-top: 10px;font-family: Poppins; font-weight: 600;padding-left: 17px; color: #828282; height: 25px; display: -webkit-box; max-height: 25px;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
+        Violife</div>
+    </div>
+    
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-7 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 0; cursor: pointer; display: block;height: 55px; max-height: 55px !important; overflow-x: hidden !important; overflow-y: auto !important; text-align: left; border-radius: 0px !important; padding-top: 4px;padding-left: 17px; padding-right: 17px;">
+
+            <span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Fetuccini De Espinaca Keto 270 Gr- Jodowa">
+                L&aacute;minas Original6 200gr  </span>
+
+        </div>
+        
+        <div class="col-lg-5 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 18px;padding-top:0px;margin-bottom: 5px; display:;cursor: pointer; height: 15px !important; text-align: left; border-radius: 0px !important;">
+
+            <span style="color: black; font-size: 13px; font-weight: bold; font-family: Poppins; font-weight: 600;">
+            S/ <span id="add_cart_span_precio_unitario2_351318">30.00</span>
+            </span>
+
+        </div>
+    
+    </div>
+<!--
+<div class="col-lg-12 col-xs-12 col-sm-12 col-md-6  celular_paddin" style="margin-bottom: 25px;display: none;">
+    <div class="grupo_botones" style="width: 50% !important; height: 10px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
+        <button id="add_cart_btn_menos_351318" style="width: 22%!important;border-radius:5px; height: 25px !important; background: #828282; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+            <i class="fs-12 fa fa-minus" aria-hidden="true" style="color:white; font-size: 10px;"></i>
+        </button>
+    <input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351318" value="1" style="width: 40% !important; height: 25px !important;">
+        <button id="add_cart_btn_mas_351318" style="border-radius:5px; width: 22% !important; height: 25px !important; background: #828282; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+        <i class="fs-12 fa fa-plus" aria-hidden="true" style="color: white; font-size: 10px;"></i>
+        </button>
+    </div>
+</div>
+-->
+    <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12  " style="margin-bottom: 30px;">
+        <div class="col-lg-7">
+           
+            <input type="button" onclick="" id="" class="" value="-" style="color: #fff; width: 28px !important; height: 28px !important; text-align: center; font-size: 15px; border: 1px solid #356B50 !important; background: #356B50; border-radius: 7px; border-bottom-right-radius: 7px;">  
+
+            <span style=" color: #fff; padding: 8px ; color: #000; font-size: 15px; font-family: Poppins; font-weight: 600; -webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="producto1">
+                           0</span>
+
+            <input type="button" onclick="" id="" class="" value="+" style="color: #fff; width: 28px !important; height: 28px !important; text-align: center; font-size: 15px; border: 1px solid #356B50 !important; background: #356B50; border-radius: 7px; border-bottom-right-radius: 7px;">  
+
+        </div>
+         <div class="col-lg-5">
+            <input type="button" onclick="" id="" class="" value="Agregar" style="color: #fff; width: 90px !important; height: 30px !important; text-align: center; font-size: 12px; border: 1px solid #fff !important; background: #828282; border-radius: 8px; border-bottom-right-radius: 8px;">
+         </div>
+    </div>
+
+</div>
+</div>
+<!--DETALLE PRODUCTO-->
+
+<!--OPCIONES HOVER PRODUCTO-->
+
+<!--OPCIONES HOVER PRODUCTO-->
+
+</div>
+</div>
+<!--CARTA RESUMEN PRODUCTO-->
+
+<div class="modal fade in" id="modal_items_351318" tabindex="-1" role="dialog" style="margin-top: 5%; background: rgb(0, 0, 0, 0.6); z-index: 2147483647; margin: 0px;">
+<div class="modal-dialog modal-lg" role="document" style="margin-top: 5%;">
+<div class="modal-header" style="background: #fff; border: 1px solid #999;">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="margin-bottom: 10px;">
+<div style="width: 100%; height: 250px !important; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1644260852_07022022140732_16442608528.png&#39;);" class="img-tabla"></div>
+</div>-->
+<!--MODAL DE PRODUCTO
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:15px; margin-bottom: 25px;">
+<span style="font-weight: 700; font-size: 16px;">FETUCCINI DE ESPINACA KETO 270 GR- JODOWA</span>
+<hr style="width: 50px; padding:0; margin-top: 5px; margin-bottom: 0;">
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="font-size: 14px; font-weight: 700; margin-bottom: 55px; display: ;">
+S/ <span id="add_cart_span_precio_unitario_351318">13.00</span>
+</div>
+<div class="col-xs-11 col-sm-11 col-md-10 col-lg-10"><hr></div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 25px;">
+<div style="width: 100% !important; height: 30px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
+<button id="add_cart_btn_menos_351318" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+<i class="fs-12 fa fa-minus" aria-hidden="true"></i>
+</button>
+<input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351318" value="1" style="width: 50% !important; height: 30px !important;">
+<button id="add_cart_btn_mas_351318" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+<i class="fs-12 fa fa-plus" aria-hidden="true"></i>
+</button>
+</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-8 col-lg-8" style="color: #008000; padding-top: 5px; margin-bottom: 25px;">
+<i class="fa fa-check-circle" aria-hidden="true" style="color: #008000;"></i> Sin Stock.</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
+<div class="col-xs-11 col-sm-11 col-md-7 col-lg-7" style="margin-bottom: 25px;">
+<input type="button" disabled="disabled"  onclick="$('#modal_items_351318').modal('hide');" id="btn_card_add_351318" class="e-negocia-bg-primario-fijo" value="Continuar" style="width: 100% !important; height: 30px !important; text-align: center; font-size: 14px; border: 1px solid #8DC826 !important; border-radius: 15px; border-bottom-right-radius: 15px;width: 150px !important;">
+<i class="fa fa-heart" aria-hidden="true" style="cursor: pointer; background: #fff; color: #8DC826; padding: 7px; border-radius:100%; border: 1px solid #8DC826;"></i>
+</div>
+</div>
+-->
+
+<script>
+//EJECUCION PRINCIPAL DE LA FUNCION CALCULAR
+var time_controller = '';
+$('#add_cart_cantidad_351318').on('keyup', function(){
+clearTimeout(time_controller);
+time_controller = setTimeout(function(){
+calcular_card(351318, 0);
+}, 100);
+});
+
+//EJECUTAR LA FUNCION CALCULAR MEDIANTE EL KEYUP DE LA EJECUCION PRINCIPAL
+$('#add_cart_btn_menos_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
+if(cantidad == ''){
+cantidad = 0;
+}
+var nueva_cantidad = parseFloat(cantidad) - 1;
+if(nueva_cantidad < 1){
+$('#add_cart_cantidad_351318').val(1);
+} else {
+$('#add_cart_cantidad_351318').val(nueva_cantidad);
+}
+clearTimeout(time_controller);
+time_controller = setTimeout(function(){
+calcular_card(351318, 0);
+}, 100);
+});
+$('#add_cart_btn_mas_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
+if(cantidad == ''){
+cantidad = 0;
+}
+var nueva_cantidad = parseFloat(cantidad) + 1;
+$('#add_cart_cantidad_351318').val(nueva_cantidad);
+clearTimeout(time_controller);
+time_controller = setTimeout(function(){
+calcular_card(351318, 0);
+}, 100);
+});
+
+$('#btn_card_add_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
+eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama-sara-82938293481&alert=1&GET_ID_USER=&GET_ID_SESSION=&token_session_id=81972207145865f9baaeba683fb4e3c2&negocia_operacion=3&p=351318&cantidad='+cantidad, '', '#resultado_ajax_351318'));
 });
 </script>
 </div>
@@ -4930,8 +5406,356 @@ eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama
 
 </div>
    
+   
+<!--CARTA RESUMEN de 3 PRODUCTO -->
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding:0;">
+    
+    
+<!--fondo blanco -->
+<div class="tabla_block_producto_container" style="margin-right: 0px;">
+<div id="resultado_ajax_351318" style="display:none;"></div>
+<div class="items_shop img-tabla tm_tienda tabla_tmano margin_lef_clase" style="height: 400px; border: none; border-radius: 5px;">
+   
+<!--DETALLE PRODUCTO-->
+<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 " style="margin: 0 auto; padding: 0;">
+<div style="width: 100% !important; height: 180px !important; background: #fff; margin-top: 0px; margin-bottom: 5px; cursor: pointer;" class="img_tienda">
+    
+    <!--imagen del producto-->
+   <img src="./index_files/producto1.png" class="header-icon1 js-show-header-dropdown" style="width: 95%; border-radius: 0px !important; background-color: transparent;  background-size:contain; height: 260px; " alt="ICON" onclick="actualizar_item_cartera()">
 
+   
+    <!--contenido de producto-->
+    
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-12 text-left" style=" font-size: 11px;padding-top: 10px;font-family: Poppins; font-weight: 600;padding-left: 17px; color: #828282; height: 25px; display: -webkit-box; max-height: 25px;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
+        Violife</div>
+    </div>
+    
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-7 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 0; cursor: pointer; display: block;height: 55px; max-height: 55px !important; overflow-x: hidden !important; overflow-y: auto !important; text-align: left; border-radius: 0px !important; padding-top: 4px;padding-left: 17px; padding-right: 17px;">
 
+            <span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Fetuccini De Espinaca Keto 270 Gr- Jodowa">
+                L&aacute;minas Original7 200gr  </span>
+
+        </div>
+        
+        <div class="col-lg-5 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 18px;padding-top:0px;margin-bottom: 5px; display:;cursor: pointer; height: 15px !important; text-align: left; border-radius: 0px !important;">
+
+            <span style="color: black; font-size: 13px; font-weight: bold; font-family: Poppins; font-weight: 600;">
+            S/ <span id="add_cart_span_precio_unitario2_351318">30.00</span>
+            </span>
+
+        </div>
+    
+    </div>
+<!--
+<div class="col-lg-12 col-xs-12 col-sm-12 col-md-6  celular_paddin" style="margin-bottom: 25px;display: none;">
+    <div class="grupo_botones" style="width: 50% !important; height: 10px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
+        <button id="add_cart_btn_menos_351318" style="width: 22%!important;border-radius:5px; height: 25px !important; background: #828282; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+            <i class="fs-12 fa fa-minus" aria-hidden="true" style="color:white; font-size: 10px;"></i>
+        </button>
+    <input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351318" value="1" style="width: 40% !important; height: 25px !important;">
+        <button id="add_cart_btn_mas_351318" style="border-radius:5px; width: 22% !important; height: 25px !important; background: #828282; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+        <i class="fs-12 fa fa-plus" aria-hidden="true" style="color: white; font-size: 10px;"></i>
+        </button>
+    </div>
+</div>
+-->
+    <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12  " style="margin-bottom: 30px;">
+        <div class="col-lg-7">
+           
+            <input type="button" onclick="" id="" class="" value="-" style="color: #fff; width: 28px !important; height: 28px !important; text-align: center; font-size: 15px; border: 1px solid #356B50 !important; background: #356B50; border-radius: 7px; border-bottom-right-radius: 7px;">  
+
+            <span style="color: #fff; padding: 8px ; color: #000; font-size: 15px; font-family: Poppins; font-weight: 600; -webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="producto1">
+                           0</span>
+
+            <input type="button" onclick="" id="" class="" value="+" style="color: #fff; width: 28px !important; height: 28px !important; text-align: center; font-size: 15px; border: 1px solid #356B50 !important; background: #356B50; border-radius: 7px; border-bottom-right-radius: 7px;">  
+
+        </div>
+         <div class="col-lg-5">
+            <input type="button" onclick="" id="" class="" value="Agregar" style=" color: #fff; width: 90px !important; height: 30px !important; text-align: center; font-size: 12px; border: 1px solid #fff !important; background: #828282; border-radius: 8px; border-bottom-right-radius: 8px;">
+         </div>
+    </div>
+
+</div>
+</div>
+<!--DETALLE PRODUCTO-->
+
+<!--OPCIONES HOVER PRODUCTO-->
+
+<!--OPCIONES HOVER PRODUCTO-->
+
+</div>
+</div>
+<!--CARTA RESUMEN PRODUCTO-->
+
+<div class="modal fade in" id="modal_items_351318" tabindex="-1" role="dialog" style="margin-top: 5%; background: rgb(0, 0, 0, 0.6); z-index: 2147483647; margin: 0px;">
+<div class="modal-dialog modal-lg" role="document" style="margin-top: 5%;">
+<div class="modal-header" style="background: #fff; border: 1px solid #999;">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="margin-bottom: 10px;">
+<div style="width: 100%; height: 250px !important; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1644260852_07022022140732_16442608528.png&#39;);" class="img-tabla"></div>
+</div>-->
+<!--MODAL DE PRODUCTO
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:15px; margin-bottom: 25px;">
+<span style="font-weight: 700; font-size: 16px;">FETUCCINI DE ESPINACA KETO 270 GR- JODOWA</span>
+<hr style="width: 50px; padding:0; margin-top: 5px; margin-bottom: 0;">
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="font-size: 14px; font-weight: 700; margin-bottom: 55px; display: ;">
+S/ <span id="add_cart_span_precio_unitario_351318">13.00</span>
+</div>
+<div class="col-xs-11 col-sm-11 col-md-10 col-lg-10"><hr></div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 25px;">
+<div style="width: 100% !important; height: 30px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
+<button id="add_cart_btn_menos_351318" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+<i class="fs-12 fa fa-minus" aria-hidden="true"></i>
+</button>
+<input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351318" value="1" style="width: 50% !important; height: 30px !important;">
+<button id="add_cart_btn_mas_351318" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+<i class="fs-12 fa fa-plus" aria-hidden="true"></i>
+</button>
+</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-8 col-lg-8" style="color: #008000; padding-top: 5px; margin-bottom: 25px;">
+<i class="fa fa-check-circle" aria-hidden="true" style="color: #008000;"></i> Sin Stock.</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
+<div class="col-xs-11 col-sm-11 col-md-7 col-lg-7" style="margin-bottom: 25px;">
+<input type="button" disabled="disabled"  onclick="$('#modal_items_351318').modal('hide');" id="btn_card_add_351318" class="e-negocia-bg-primario-fijo" value="Continuar" style="width: 100% !important; height: 30px !important; text-align: center; font-size: 14px; border: 1px solid #8DC826 !important; border-radius: 15px; border-bottom-right-radius: 15px;width: 150px !important;">
+<i class="fa fa-heart" aria-hidden="true" style="cursor: pointer; background: #fff; color: #8DC826; padding: 7px; border-radius:100%; border: 1px solid #8DC826;"></i>
+</div>
+</div>
+-->
+
+<script>
+//EJECUCION PRINCIPAL DE LA FUNCION CALCULAR
+var time_controller = '';
+$('#add_cart_cantidad_351318').on('keyup', function(){
+clearTimeout(time_controller);
+time_controller = setTimeout(function(){
+calcular_card(351318, 0);
+}, 100);
+});
+
+//EJECUTAR LA FUNCION CALCULAR MEDIANTE EL KEYUP DE LA EJECUCION PRINCIPAL
+$('#add_cart_btn_menos_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
+if(cantidad == ''){
+cantidad = 0;
+}
+var nueva_cantidad = parseFloat(cantidad) - 1;
+if(nueva_cantidad < 1){
+$('#add_cart_cantidad_351318').val(1);
+} else {
+$('#add_cart_cantidad_351318').val(nueva_cantidad);
+}
+clearTimeout(time_controller);
+time_controller = setTimeout(function(){
+calcular_card(351318, 0);
+}, 100);
+});
+$('#add_cart_btn_mas_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
+if(cantidad == ''){
+cantidad = 0;
+}
+var nueva_cantidad = parseFloat(cantidad) + 1;
+$('#add_cart_cantidad_351318').val(nueva_cantidad);
+clearTimeout(time_controller);
+time_controller = setTimeout(function(){
+calcular_card(351318, 0);
+}, 100);
+});
+
+$('#btn_card_add_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
+eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama-sara-82938293481&alert=1&GET_ID_USER=&GET_ID_SESSION=&token_session_id=81972207145865f9baaeba683fb4e3c2&negocia_operacion=3&p=351318&cantidad='+cantidad, '', '#resultado_ajax_351318'));
+});
+</script>
+</div>
+</div>
+</div>
+<!--MODAL DETALLE DESCRIPCION PRODUCTO-->
+
+</div>
+   
+<!--CARTA RESUMEN de 4 PRODUCTO -->
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding:0;">
+    
+    
+<!--fondo blanco -->
+<div class="tabla_block_producto_container" style="margin-right: 0px;">
+<div id="resultado_ajax_351318" style="display:none;"></div>
+<div class="items_shop img-tabla tm_tienda tabla_tmano margin_lef_clase" style="height: 400px; border: none; border-radius: 5px;">
+   
+<!--DETALLE PRODUCTO-->
+<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 " style="margin: 0 auto; padding: 0;">
+<div style="width: 100% !important; height: 180px !important; background: #fff; margin-top: 0px; margin-bottom: 5px; cursor: pointer;" class="img_tienda">
+    
+    <!--imagen del producto-->
+     <img src="./index_files/producto1.png" class="header-icon1 js-show-header-dropdown" style="width: 95%; border-radius: 0px !important; background-color: transparent;  background-size:contain; height: 260px; " alt="ICON" onclick="actualizar_item_cartera()">
+
+   
+    <!--contenido de producto-->
+    
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-12 text-left" style=" font-size: 11px;padding-top: 10px;font-family: Poppins; font-weight: 600;padding-left: 17px; color: #828282; height: 25px; display: -webkit-box; max-height: 25px;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
+        Violife</div>
+    </div>
+    
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="col-lg-7 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 0; cursor: pointer; display: block;height: 55px; max-height: 55px !important; overflow-x: hidden !important; overflow-y: auto !important; text-align: left; border-radius: 0px !important; padding-top: 4px;padding-left: 17px; padding-right: 17px;">
+
+            <span style="color: #000; font-size: 12px; font-family: Poppins; font-weight: 600; display: -webkit-box; max-height: 40px;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="Fetuccini De Espinaca Keto 270 Gr- Jodowa">
+                L&aacute;minas Original8 200gr  </span>
+
+        </div>
+        
+        <div class="col-lg-5 col-xs-12 col-sm-12 col-md-12 celular_paddin largo_nombre" style="padding: 18px;padding-top:0px;margin-bottom: 5px; display:;cursor: pointer; height: 15px !important; text-align: left; border-radius: 0px !important;">
+
+            <span style="color: black; font-size: 13px; font-weight: bold; font-family: Poppins; font-weight: 600;">
+            S/ <span id="add_cart_span_precio_unitario2_351318">30.00</span>
+            </span>
+
+        </div>
+    
+    </div>
+<!--
+<div class="col-lg-12 col-xs-12 col-sm-12 col-md-6  celular_paddin" style="margin-bottom: 25px;display: none;">
+    <div class="grupo_botones" style="width: 50% !important; height: 10px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
+        <button id="add_cart_btn_menos_351318" style="width: 22%!important;border-radius:5px; height: 25px !important; background: #828282; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+            <i class="fs-12 fa fa-minus" aria-hidden="true" style="color:white; font-size: 10px;"></i>
+        </button>
+    <input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351318" value="1" style="width: 40% !important; height: 25px !important;">
+        <button id="add_cart_btn_mas_351318" style="border-radius:5px; width: 22% !important; height: 25px !important; background: #828282; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+        <i class="fs-12 fa fa-plus" aria-hidden="true" style="color: white; font-size: 10px;"></i>
+        </button>
+    </div>
+</div>
+-->
+    <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12  " style="margin-bottom: 30px;">
+        <div class="col-lg-7">
+           
+            <input type="button" onclick="" id="" class="" value="-" style="color: #fff; width: 28px !important; height: 28px !important; text-align: center; font-size: 15px; border: 1px solid #356B50 !important; background: #356B50; border-radius: 7px; border-bottom-right-radius: 7px;">  
+
+            <span style=" color: #fff; padding: 8px ; color: #000; font-size: 15px; font-family: Poppins; font-weight: 600; -webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;" title="producto1">
+                           0</span>
+
+            <input type="button" onclick="" id="" class="" value="+" style="color: #fff; width: 28px !important; height: 28px !important; text-align: center; font-size: 15px; border: 1px solid #356B50 !important; background: #356B50; border-radius: 7px; border-bottom-right-radius: 7px;">  
+
+        </div>
+         <div class="col-lg-5">
+            <input type="button" onclick="" id="" class="" value="Agregar" style="color: #fff; width: 90px !important; height: 30px !important; text-align: center; font-size: 12px; border: 1px solid #fff !important; background: #828282; border-radius: 8px; border-bottom-right-radius: 8px;">
+         </div>
+    </div>
+
+</div>
+</div>
+<!--DETALLE PRODUCTO-->
+
+<!--OPCIONES HOVER PRODUCTO-->
+
+<!--OPCIONES HOVER PRODUCTO-->
+
+</div>
+</div>
+<!--CARTA RESUMEN PRODUCTO-->
+
+<div class="modal fade in" id="modal_items_351318" tabindex="-1" role="dialog" style="margin-top: 5%; background: rgb(0, 0, 0, 0.6); z-index: 2147483647; margin: 0px;">
+<div class="modal-dialog modal-lg" role="document" style="margin-top: 5%;">
+<div class="modal-header" style="background: #fff; border: 1px solid #999;">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="margin-bottom: 10px;">
+<div style="width: 100%; height: 250px !important; border-radius: 0px !important; background-color: transparent; background-image: url(&#39;https://nelabsac-img-producto.s3.amazonaws.com/49_1644260852_07022022140732_16442608528.png&#39;);" class="img-tabla"></div>
+</div>-->
+<!--MODAL DE PRODUCTO
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:15px; margin-bottom: 25px;">
+<span style="font-weight: 700; font-size: 16px;">FETUCCINI DE ESPINACA KETO 270 GR- JODOWA</span>
+<hr style="width: 50px; padding:0; margin-top: 5px; margin-bottom: 0;">
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="font-size: 14px; font-weight: 700; margin-bottom: 55px; display: ;">
+S/ <span id="add_cart_span_precio_unitario_351318">13.00</span>
+</div>
+<div class="col-xs-11 col-sm-11 col-md-10 col-lg-10"><hr></div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 25px;">
+<div style="width: 100% !important; height: 30px !important; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; border: none; overflow: hidden;">
+<button id="add_cart_btn_menos_351318" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+<i class="fs-12 fa fa-minus" aria-hidden="true"></i>
+</button>
+<input class="size8 m-text18 t-center num-product" type="number" id="add_cart_cantidad_351318" value="1" style="width: 50% !important; height: 30px !important;">
+<button id="add_cart_btn_mas_351318" style="width: 25% !important; height: 30px !important; background: #e6e6e6; color: #444; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center;">
+<i class="fs-12 fa fa-plus" aria-hidden="true"></i>
+</button>
+</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-8 col-lg-8" style="color: #008000; padding-top: 5px; margin-bottom: 25px;">
+<i class="fa fa-check-circle" aria-hidden="true" style="color: #008000;"></i> Sin Stock.</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
+<div class="col-xs-11 col-sm-11 col-md-7 col-lg-7" style="margin-bottom: 25px;">
+<input type="button" disabled="disabled"  onclick="$('#modal_items_351318').modal('hide');" id="btn_card_add_351318" class="e-negocia-bg-primario-fijo" value="Continuar" style="width: 100% !important; height: 30px !important; text-align: center; font-size: 14px; border: 1px solid #8DC826 !important; border-radius: 15px; border-bottom-right-radius: 15px;width: 150px !important;">
+<i class="fa fa-heart" aria-hidden="true" style="cursor: pointer; background: #fff; color: #8DC826; padding: 7px; border-radius:100%; border: 1px solid #8DC826;"></i>
+</div>
+</div>
+-->
+
+<script>
+//EJECUCION PRINCIPAL DE LA FUNCION CALCULAR
+var time_controller = '';
+$('#add_cart_cantidad_351318').on('keyup', function(){
+clearTimeout(time_controller);
+time_controller = setTimeout(function(){
+calcular_card(351318, 0);
+}, 100);
+});
+
+//EJECUTAR LA FUNCION CALCULAR MEDIANTE EL KEYUP DE LA EJECUCION PRINCIPAL
+$('#add_cart_btn_menos_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
+if(cantidad == ''){
+cantidad = 0;
+}
+var nueva_cantidad = parseFloat(cantidad) - 1;
+if(nueva_cantidad < 1){
+$('#add_cart_cantidad_351318').val(1);
+} else {
+$('#add_cart_cantidad_351318').val(nueva_cantidad);
+}
+clearTimeout(time_controller);
+time_controller = setTimeout(function(){
+calcular_card(351318, 0);
+}, 100);
+});
+$('#add_cart_btn_mas_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
+if(cantidad == ''){
+cantidad = 0;
+}
+var nueva_cantidad = parseFloat(cantidad) + 1;
+$('#add_cart_cantidad_351318').val(nueva_cantidad);
+clearTimeout(time_controller);
+time_controller = setTimeout(function(){
+calcular_card(351318, 0);
+}, 100);
+});
+
+$('#btn_card_add_351318').on('click', function(){
+var cantidad = $('#add_cart_cantidad_351318').val();
+eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama-sara-82938293481&alert=1&GET_ID_USER=&GET_ID_SESSION=&token_session_id=81972207145865f9baaeba683fb4e3c2&negocia_operacion=3&p=351318&cantidad='+cantidad, '', '#resultado_ajax_351318'));
+});
+</script>
+</div>
+</div>
+</div>
+<!--MODAL DETALLE DESCRIPCION PRODUCTO-->
+
+</div>
+
+</div>
+        </div>
+    
+    
+    
 <!-- Pagination -->
 <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 text-center" style="position: relative;margin-left:auto; margin-right: auto;">
 <!--<div class="pagination flex-m flex-w p-t-26" >
@@ -4954,7 +5778,7 @@ eval(devolver_ajax(1, 'https://negocialab.com/e-commerce/shop.php?token=tkn-mama
 <span><a style="color: #333; font-size: 10px;display:none;"></a></span>
 </li>
 <li class="active">
-<a style="margin: 5px; font-size: 15px; padding-top:10px; font-weight: 900; background: #8DC826;border-radius: 50%; border: 0;height:40px; width:40px;">1</a></li><li><a href="javascript:void(0);" onclick="cambiar_pagina(2)" style="margin: 5px; font-size: 15px; padding-top:10px; font-weight: 900; background: none;border-radius: 50%; border: 0;height:40px; width:40px;color:black !important;">2</a></li><li><a style="margin: 5px; font-size: 15px; padding-top:10px; font-weight: 900; background: none;border-radius: 50%; border: 0;height:40px; width:40px;color:black !important;">...</a></li><li><a href="javascript:void(0);" onclick="cambiar_pagina(12)" style="margin: 5px; font-size: 15px; padding-top:10px; font-weight: 900; background: none;border-radius: 50%; border: 0;height:40px; width:40px;color:black !important;">12</a></li><li><span style="background:none;border:0;"><a href="javascript:void(0);" onclick="cambiar_pagina(2)" style="margin: 5px; font-size: 15px; padding-top:10px; font-weight: 900; background: none;border-radius: 50%; border: 0;height:40px; width:40px;color:black !important;"><i class="fa fa-angle-right" style="font-size:36px;"></i></a></span></li></ul>
+<a style="margin: 5px;font-size: 15px;padding-top:10px;font-weight: 900;background: #356B50;border-radius: 50%;border: 0;height:40px;width:40px;">1</a></li><li><a href="javascript:void(0);" onclick="cambiar_pagina(2)" style="margin: 5px; font-size: 15px; padding-top:10px; font-weight: 900; background: none;border-radius: 50%; border: 0;height:40px; width:40px;color:black !important;">2</a></li><li><a style="margin: 5px; font-size: 15px; padding-top:10px; font-weight: 900; background: none;border-radius: 50%; border: 0;height:40px; width:40px;color:black !important;">...</a></li><li><a href="javascript:void(0);" onclick="cambiar_pagina(12)" style="margin: 5px; font-size: 15px; padding-top:10px; font-weight: 900; background: none;border-radius: 50%; border: 0;height:40px; width:40px;color:black !important;">12</a></li><li><span style="background:none;border:0;"><a href="javascript:void(0);" onclick="cambiar_pagina(2)" style="margin: 5px; font-size: 15px; padding-top:10px; font-weight: 900; background: none;border-radius: 50%; border: 0;height:40px; width:40px;color:black !important;"><i class="fa fa-angle-right" style="font-size:36px;"></i></a></span></li></ul>
 
 <!-- BUTTON BACK TO TOP -->
 <div class="btn-back-to-top bg0-hov e-negocia-bg-primario-fijo" id="myBtn" style="display:none;">
